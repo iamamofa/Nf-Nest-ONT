@@ -1,0 +1,569 @@
+Mar-13 06:57:35.033 [main] DEBUG nextflow.cli.Launcher - $> nextflow run nfNeST_ver02.nf -c ./testrun/nextflow1.config -with-report ./testrun/test_output.html
+Mar-13 06:57:35.083 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.04.3
+Mar-13 06:57:35.103 [main] INFO  nextflow.cli.CmdRun - Launching `nfNeST_ver02.nf` [gloomy_solvay] - revision: 45d5fe490d
+Mar-13 06:57:35.117 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /data/nextflow.config
+Mar-13 06:57:35.119 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /data/./testrun/nextflow1.config
+Mar-13 06:57:35.120 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /data/nextflow.config
+Mar-13 06:57:35.120 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /data/testrun/nextflow1.config
+Mar-13 06:57:35.139 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Mar-13 06:57:35.601 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Mar-13 06:57:35.656 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/root/.nextflow/plugins
+Mar-13 06:57:35.657 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Mar-13 06:57:35.659 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins local root: .nextflow/plr/empty
+Mar-13 06:57:35.665 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Mar-13 06:57:35.666 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Mar-13 06:57:35.670 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Mar-13 06:57:35.679 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Mar-13 06:57:35.745 [main] DEBUG nextflow.Session - Session uuid: 9d9c5cf6-de2e-46fe-b9ab-239c4107a065
+Mar-13 06:57:35.746 [main] DEBUG nextflow.Session - Run name: gloomy_solvay
+Mar-13 06:57:35.747 [main] DEBUG nextflow.Session - Executor pool size: 28
+Mar-13 06:57:35.782 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.04.3 build 5560
+  Created: 21-07-2021 15:09 UTC (15:09 GMT)
+  System: Linux 6.8.0-52-generic
+  Runtime: Groovy 3.0.7 on OpenJDK 64-Bit Server VM 11.0.11+9-Ubuntu-0ubuntu2.18.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 1@76a59c78f4e8 [172.17.0.2]
+  CPUs: 28 - Mem: 125.5 GB (119.6 GB) - Swap: 2 GB (2 GB)
+Mar-13 06:57:35.818 [main] DEBUG nextflow.Session - Work-dir: /data/work [overlayfs]
+Mar-13 06:57:35.818 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /data/bin
+Mar-13 06:57:35.834 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Mar-13 06:57:35.850 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Mar-13 06:57:35.970 [main] DEBUG nextflow.Session - Session start invoked
+Mar-13 06:57:37.013 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Mar-13 06:57:37.024 [main] DEBUG nextflow.Session - Workflow process names [dsl1]: tojson, viz, GenerateVCF, combineFastq, postFastQC, annotate, getcutoff, trimFastq, snpfilter, vartpype, errortrack, alignReads, spread, processAlignments, filter, extract, getcoverage, merge, buildIndex, preFastQC
+Mar-13 06:57:37.066 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: testrun/fastq/; pattern: *{R1,R2}*.fastq.gz; options: [:]
+Mar-13 06:57:37.216 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.216 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.220 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Mar-13 06:57:37.224 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=28; memory=125.5 GB; capacity=28; pollInterval=100ms; dumpInterval=5m
+Mar-13 06:57:37.308 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.310 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.326 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.326 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.346 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.346 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.360 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.360 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.378 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.379 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.404 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.405 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.431 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.431 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.441 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.441 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.450 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.450 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.458 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.458 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.473 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.473 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.478 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.478 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.483 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.483 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.487 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.487 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.494 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:37.496 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.496 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.501 [Task submitter] INFO  nextflow.Session - [2c/6c9ab4] Submitted process > combineFastq (8)
+Mar-13 06:57:37.503 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.503 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.511 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.511 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:37.511 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.511 [Task submitter] INFO  nextflow.Session - [fc/cc0e99] Submitted process > combineFastq (1)
+Mar-13 06:57:37.516 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.516 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.520 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-13 06:57:37.520 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-13 06:57:37.522 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Mar-13 06:57:37.523 [main] DEBUG nextflow.Session - Session await
+Mar-13 06:57:37.523 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:37.524 [Task submitter] INFO  nextflow.Session - [43/0b7913] Submitted process > combineFastq (10)
+Mar-13 06:57:37.529 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:37.529 [Task submitter] INFO  nextflow.Session - [46/eaa396] Submitted process > buildIndex (New_6_genes)
+Mar-13 06:57:37.534 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:37.534 [Task submitter] INFO  nextflow.Session - [d1/8d281c] Submitted process > combineFastq (7)
+Mar-13 06:57:37.540 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:37.540 [Task submitter] INFO  nextflow.Session - [f1/e12676] Submitted process > combineFastq (9)
+Mar-13 06:57:37.547 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:37.548 [Task submitter] INFO  nextflow.Session - [66/7811ff] Submitted process > combineFastq (4)
+Mar-13 06:57:37.555 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:37.556 [Task submitter] INFO  nextflow.Session - [82/73ea9e] Submitted process > combineFastq (3)
+Mar-13 06:57:37.563 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:37.564 [Task submitter] INFO  nextflow.Session - [4b/5901bf] Submitted process > combineFastq (2)
+Mar-13 06:57:37.571 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:37.590 [Task submitter] INFO  nextflow.Session - [11/a627f7] Submitted process > combineFastq (6)
+Mar-13 06:57:37.600 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:37.601 [Task submitter] INFO  nextflow.Session - [d6/262288] Submitted process > combineFastq (5)
+Mar-13 06:57:37.894 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: buildIndex (New_6_genes); status: COMPLETED; exit: 0; error: -; workDir: /data/work/46/eaa396a79ba889ccdaa8a0cd070916]
+Mar-13 06:57:37.922 [Task monitor] DEBUG n.util.BlockingThreadExecutorFactory - Thread pool name=FileTransfer; maxThreads=84; maxQueueSize=252; keepAlive=1m
+Mar-13 06:57:38.026 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: combineFastq (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/2c/6c9ab412f96e8078cd8b6b2e3b5f03]
+Mar-13 06:57:38.046 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.047 [Task submitter] INFO  nextflow.Session - [9b/d289d8] Submitted process > preFastQC (1)
+Mar-13 06:57:38.054 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.055 [Task submitter] INFO  nextflow.Session - [8d/94848b] Submitted process > trimFastq (1)
+Mar-13 06:57:38.291 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: combineFastq (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/11/a627f7cab646a118da93fecd7f75d1]
+Mar-13 06:57:38.304 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.306 [Task submitter] INFO  nextflow.Session - [71/ad85ed] Submitted process > preFastQC (2)
+Mar-13 06:57:38.312 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.313 [Task submitter] INFO  nextflow.Session - [75/1cb0e1] Submitted process > trimFastq (2)
+Mar-13 06:57:38.359 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: combineFastq (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/d6/2622881a76e747f1117c33952aa454]
+Mar-13 06:57:38.381 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.383 [Task submitter] INFO  nextflow.Session - [69/9dc29b] Submitted process > trimFastq (3)
+Mar-13 06:57:38.396 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.397 [Task submitter] INFO  nextflow.Session - [81/a79d03] Submitted process > preFastQC (3)
+Mar-13 06:57:38.500 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: combineFastq (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/4b/5901bf5abbe3427f9a4a2ba6906d30]
+Mar-13 06:57:38.513 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.513 [Task submitter] INFO  nextflow.Session - [18/d06fa3] Submitted process > preFastQC (4)
+Mar-13 06:57:38.521 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.525 [Task submitter] INFO  nextflow.Session - [28/389026] Submitted process > trimFastq (4)
+Mar-13 06:57:38.548 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: combineFastq (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/f1/e126767fe562de0c383ccb0742c9a1]
+Mar-13 06:57:38.560 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: combineFastq (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/66/7811ff4ddd483bba644e0911bee685]
+Mar-13 06:57:38.570 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.571 [Task submitter] INFO  nextflow.Session - [a9/12b2c9] Submitted process > preFastQC (5)
+Mar-13 06:57:38.578 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.579 [Task submitter] INFO  nextflow.Session - [21/03c01b] Submitted process > trimFastq (5)
+Mar-13 06:57:38.595 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.595 [Task submitter] INFO  nextflow.Session - [77/5bea31] Submitted process > preFastQC (6)
+Mar-13 06:57:38.605 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.606 [Task submitter] INFO  nextflow.Session - [fb/f36ba1] Submitted process > trimFastq (6)
+Mar-13 06:57:38.707 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: combineFastq (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/d1/8d281c04309777b7a0aef712c0ce0d]
+Mar-13 06:57:38.762 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.768 [Task submitter] INFO  nextflow.Session - [78/e4ad72] Submitted process > preFastQC (7)
+Mar-13 06:57:38.782 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:38.784 [Task submitter] INFO  nextflow.Session - [8f/184e35] Submitted process > trimFastq (7)
+Mar-13 06:57:39.303 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: combineFastq (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/43/0b7913665b82bc5abc1d3895cba557]
+Mar-13 06:57:39.364 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:39.364 [Task submitter] INFO  nextflow.Session - [c8/9fd914] Submitted process > trimFastq (8)
+Mar-13 06:57:39.396 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:39.403 [Task submitter] INFO  nextflow.Session - [b5/6c201c] Submitted process > preFastQC (8)
+Mar-13 06:57:39.413 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: combineFastq (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/fc/cc0e991c7b82f05ecd61b7069bdde7]
+Mar-13 06:57:39.472 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:39.496 [Task submitter] INFO  nextflow.Session - [72/25088e] Submitted process > trimFastq (9)
+Mar-13 06:57:39.529 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:39.529 [Task submitter] INFO  nextflow.Session - [ea/60a03e] Submitted process > preFastQC (9)
+Mar-13 06:57:41.653 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: trimFastq (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/8d/94848b6d0e64219780f2ad041c8306]
+Mar-13 06:57:41.757 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 15; name: trimFastq (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/75/1cb0e1ffd3bb6fc1bf5d094bfef8bc]
+Mar-13 06:57:41.789 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:41.789 [Task submitter] INFO  nextflow.Session - [52/2c212f] Submitted process > postFastQC (1)
+Mar-13 06:57:41.888 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:41.889 [Task submitter] INFO  nextflow.Session - [5e/2c95cc] Submitted process > postFastQC (2)
+Mar-13 06:57:41.902 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 16; name: trimFastq (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/69/9dc29b23233e1b145c2cd9b3272de4]
+Mar-13 06:57:41.964 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:41.964 [Task submitter] INFO  nextflow.Session - [f8/c9fada] Submitted process > postFastQC (3)
+Mar-13 06:57:42.253 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:42.254 [Task submitter] INFO  nextflow.Session - [5b/eb28d9] Submitted process > alignReads (3)
+Mar-13 06:57:42.300 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:42.301 [Task submitter] INFO  nextflow.Session - [1f/70181c] Submitted process > alignReads (2)
+Mar-13 06:57:42.352 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:42.352 [Task submitter] INFO  nextflow.Session - [48/9e7212] Submitted process > alignReads (1)
+Mar-13 06:57:43.359 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 19; name: trimFastq (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/28/3890263d39140406c65dd7894447b1]
+Mar-13 06:57:43.430 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:43.431 [Task submitter] INFO  nextflow.Session - [fc/cce5ac] Submitted process > postFastQC (4)
+Mar-13 06:57:43.459 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:43.460 [Task submitter] INFO  nextflow.Session - [9f/2b3aa5] Submitted process > alignReads (4)
+Mar-13 06:57:43.559 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 21; name: trimFastq (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/21/03c01b0c92bf0a121df32cc9ec6f01]
+Mar-13 06:57:43.673 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:43.673 [Task submitter] INFO  nextflow.Session - [1c/5dbb4c] Submitted process > postFastQC (5)
+Mar-13 06:57:43.700 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:43.705 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 22; name: trimFastq (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/fb/f36ba142aae67b793ac34d2f48aa8f]
+Mar-13 06:57:43.715 [Task submitter] INFO  nextflow.Session - [4a/e6dbc8] Submitted process > alignReads (5)
+Mar-13 06:57:43.780 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:43.781 [Task submitter] INFO  nextflow.Session - [e2/ea8804] Submitted process > postFastQC (6)
+Mar-13 06:57:43.801 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:43.803 [Task submitter] INFO  nextflow.Session - [25/a865a0] Submitted process > alignReads (6)
+Mar-13 06:57:44.313 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 25; name: trimFastq (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/8f/184e353eb56e25f4145c3cf29abb39]
+Mar-13 06:57:44.380 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:44.381 [Task submitter] INFO  nextflow.Session - [c2/6a5c5e] Submitted process > postFastQC (7)
+Mar-13 06:57:44.402 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: combineFastq (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/82/73ea9e1f321cd71e4a8c147d0b1f4b]
+Mar-13 06:57:44.467 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:44.479 [Task submitter] INFO  nextflow.Session - [d0/69f23a] Submitted process > alignReads (7)
+Mar-13 06:57:44.564 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:44.570 [Task submitter] INFO  nextflow.Session - [c0/e74127] Submitted process > trimFastq (10)
+Mar-13 06:57:44.631 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:44.632 [Task submitter] INFO  nextflow.Session - [c6/15c433] Submitted process > preFastQC (10)
+Mar-13 06:57:44.635 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 26; name: trimFastq (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/c8/9fd9147fbdc324c2e804a0436ba2d6]
+Mar-13 06:57:44.668 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:44.669 [Task submitter] INFO  nextflow.Session - [12/9de5a6] Submitted process > postFastQC (8)
+Mar-13 06:57:44.840 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:44.841 [Task submitter] INFO  nextflow.Session - [55/37d77c] Submitted process > alignReads (8)
+Mar-13 06:57:45.311 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 35; name: alignReads (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/5b/eb28d98f6b3e6ba30c84afb49d5dad]
+Mar-13 06:57:45.338 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:45.338 [Task submitter] INFO  nextflow.Session - [9e/9a427c] Submitted process > processAlignments (1)
+Mar-13 06:57:45.344 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 30; name: alignReads (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/48/9e721295a924efff2c912879a82a68]
+Mar-13 06:57:45.382 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:45.383 [Task submitter] INFO  nextflow.Session - [91/55f443] Submitted process > processAlignments (2)
+Mar-13 06:57:45.443 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 29; name: trimFastq (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/72/25088effb506023290fa6e216b4127]
+Mar-13 06:57:45.509 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:45.513 [Task submitter] INFO  nextflow.Session - [46/269e90] Submitted process > postFastQC (9)
+Mar-13 06:57:45.561 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 33; name: alignReads (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/1f/70181c147da59b54d34ae604ffafce]
+Mar-13 06:57:45.593 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:45.593 [Task submitter] INFO  nextflow.Session - [cd/1ad175] Submitted process > alignReads (9)
+Mar-13 06:57:48.248 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 36; name: alignReads (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/9f/2b3aa522cef9166851483ecf15689f]
+Mar-13 06:57:48.258 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:48.263 [Task submitter] INFO  nextflow.Session - [0d/274583] Submitted process > processAlignments (3)
+Mar-13 06:57:48.467 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 40; name: alignReads (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/25/a865a084ada317169406ca3963bd73]
+Mar-13 06:57:48.481 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:48.481 [Task submitter] INFO  nextflow.Session - [ae/3b2c8e] Submitted process > processAlignments (4)
+Mar-13 06:57:48.802 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 38; name: alignReads (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/4a/e6dbc84aef5a3fda4516e69149cb6d]
+Mar-13 06:57:48.806 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:48.806 [Task submitter] INFO  nextflow.Session - [4d/d31155] Submitted process > processAlignments (5)
+Mar-13 06:57:49.588 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 43; name: alignReads (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/d0/69f23aa36abdfd992b5ab80906b98e]
+Mar-13 06:57:49.592 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:49.592 [Task submitter] INFO  nextflow.Session - [b8/ed5889] Submitted process > processAlignments (6)
+Mar-13 06:57:50.719 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 50; name: alignReads (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/cd/1ad175b1818ec71e077cb7f78baed0]
+Mar-13 06:57:50.730 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:50.731 [Task submitter] INFO  nextflow.Session - [84/89320d] Submitted process > processAlignments (7)
+Mar-13 06:57:50.959 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 44; name: trimFastq (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/c0/e74127b7d637c4546d6e354d2f6df4]
+Mar-13 06:57:50.994 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:50.994 [Task submitter] INFO  nextflow.Session - [13/9f2ac5] Submitted process > processAlignments (8)
+Mar-13 06:57:51.249 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 47; name: alignReads (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/55/37d77c17606d934ba0438f844a5919]
+Mar-13 06:57:51.264 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:51.264 [Task submitter] INFO  nextflow.Session - [45/a692a7] Submitted process > postFastQC (10)
+Mar-13 06:57:53.340 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 49; name: processAlignments (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/91/55f443b56c6a7f5e20eacb68c2d886]
+Mar-13 06:57:53.350 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:53.351 [Task submitter] INFO  nextflow.Session - [d0/1c94d0] Submitted process > alignReads (10)
+Mar-13 06:57:54.010 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 48; name: processAlignments (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/9e/9a427ce2ba02669ead443726c33bc2]
+Mar-13 06:57:54.032 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:54.033 [Task submitter] INFO  nextflow.Session - [57/acb9de] Submitted process > processAlignments (9)
+Mar-13 06:57:56.151 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 52; name: processAlignments (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/0d/27458376de6a2ee5370ebed0bf8d9a]
+Mar-13 06:57:56.158 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:56.158 [Task submitter] INFO  nextflow.Session - [59/aee602] Submitted process > getcoverage (1)
+Mar-13 06:57:56.922 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 61; name: getcoverage (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/59/aee602452d3bac42e347dc71b6256f]
+Mar-13 06:57:56.952 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:56.956 [Task submitter] INFO  nextflow.Session - [53/d1f984] Submitted process > GenerateVCF (1)
+Mar-13 06:57:57.023 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 53; name: processAlignments (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/ae/3b2c8e048ee332cbb1a896ac96d965]
+Mar-13 06:57:57.039 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:57.040 [Task submitter] INFO  nextflow.Session - [ad/f0d000] Submitted process > getcoverage (2)
+Mar-13 06:57:57.130 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 54; name: processAlignments (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/4d/d311554c105a8c60bb7c4373ab0a72]
+Mar-13 06:57:57.145 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:57.146 [Task submitter] INFO  nextflow.Session - [52/143c7b] Submitted process > GenerateVCF (2)
+Mar-13 06:57:57.953 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 55; name: processAlignments (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/b8/ed5889e387f6dfc790d03739369f3b]
+Mar-13 06:57:57.969 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:57.969 [Task submitter] INFO  nextflow.Session - [03/1295ee] Submitted process > GenerateVCF (3)
+Mar-13 06:57:57.990 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 63; name: getcoverage (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/ad/f0d0005faf16feb4aa892bfd9459b5]
+Mar-13 06:57:57.998 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:58.003 [Task submitter] INFO  nextflow.Session - [55/fd25fd] Submitted process > getcoverage (3)
+Mar-13 06:57:58.092 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 56; name: processAlignments (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/84/89320d70e280a10bd71d7be20c095b]
+Mar-13 06:57:58.113 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:58.114 [Task submitter] INFO  nextflow.Session - [3f/fa4486] Submitted process > GenerateVCF (4)
+Mar-13 06:57:58.314 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 59; name: alignReads (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/d0/1c94d00fbd8c2c5beb37dbaeac9cfd]
+Mar-13 06:57:58.329 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:58.329 [Task submitter] INFO  nextflow.Session - [c7/ec0dab] Submitted process > getcoverage (4)
+Mar-13 06:57:58.776 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 57; name: processAlignments (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/13/9f2ac58253fd94ce6c721405886cc3]
+Mar-13 06:57:58.794 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:58.795 [Task submitter] INFO  nextflow.Session - [85/dfc3cd] Submitted process > GenerateVCF (5)
+Mar-13 06:57:58.840 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 65; name: getcoverage (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/55/fd25fda1c07a9433ee62cc1af6fcaa]
+Mar-13 06:57:58.847 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:58.850 [Task submitter] INFO  nextflow.Session - [50/7bb265] Submitted process > getcoverage (5)
+Mar-13 06:57:59.316 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 67; name: getcoverage (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/c7/ec0dab6d038ad91ccb5c6ad25fc316]
+Mar-13 06:57:59.346 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:59.347 [Task submitter] INFO  nextflow.Session - [a3/e11d78] Submitted process > GenerateVCF (6)
+Mar-13 06:57:59.856 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 69; name: getcoverage (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/50/7bb2652f2f5b1fc8f6912718328b3b]
+Mar-13 06:57:59.871 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:57:59.871 [Task submitter] INFO  nextflow.Session - [95/bfe71e] Submitted process > getcoverage (6)
+Mar-13 06:58:00.560 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 72; name: getcoverage (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/95/bfe71e4a4c3c85f45e8cfb5d9300b2]
+Mar-13 06:58:00.572 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:00.573 [Task submitter] INFO  nextflow.Session - [48/b1256c] Submitted process > getcoverage (7)
+Mar-13 06:58:00.869 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 60; name: processAlignments (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/57/acb9de509bf89a55cee3b04bde2c09]
+Mar-13 06:58:00.889 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:00.890 [Task submitter] INFO  nextflow.Session - [16/1a6888] Submitted process > GenerateVCF (7)
+Mar-13 06:58:01.444 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 73; name: getcoverage (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/48/b1256c59f98a974b1e73cb91ff3e47]
+Mar-13 06:58:01.454 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:01.454 [Task submitter] INFO  nextflow.Session - [9c/857d18] Submitted process > processAlignments (10)
+Mar-13 06:58:09.541 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 75; name: processAlignments (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/9c/857d18fbde9223a66dfdf1ebb7eba9]
+Mar-13 06:58:09.561 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:09.562 [Task submitter] INFO  nextflow.Session - [47/5d7a0a] Submitted process > GenerateVCF (8)
+Mar-13 06:58:22.312 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 66; name: GenerateVCF (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/03/1295ee46261a22129e22665a3d852f]
+Mar-13 06:58:22.324 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:22.324 [Task submitter] INFO  nextflow.Session - [6c/bdc2a9] Submitted process > getcoverage (8)
+Mar-13 06:58:23.492 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 64; name: GenerateVCF (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/52/143c7ba86e127eb5f579ba77c47af4]
+Mar-13 06:58:23.502 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:23.514 [Task submitter] INFO  nextflow.Session - [58/e6c3a0] Submitted process > GenerateVCF (9)
+Mar-13 06:58:23.683 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 77; name: getcoverage (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/6c/bdc2a94cc2bd8da9498c8731368799]
+Mar-13 06:58:23.707 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:23.707 [Task submitter] INFO  nextflow.Session - [01/712dea] Submitted process > getcoverage (9)
+Mar-13 06:58:24.933 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 31; name: postFastQC (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/52/2c212fcbfef293b4e4b32dd804c081]
+Mar-13 06:58:24.948 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:24.948 [Task submitter] INFO  nextflow.Session - [fe/9e1931] Submitted process > getcoverage (10)
+Mar-13 06:58:25.224 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 79; name: getcoverage (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/01/712dea1341c5ce2fe26e0aba8a2010]
+Mar-13 06:58:25.242 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:25.243 [Task submitter] INFO  nextflow.Session - [6e/24fc89] Submitted process > GenerateVCF (10)
+Mar-13 06:58:25.953 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 80; name: getcoverage (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/fe/9e193105b110fd78dc0ac08843a1f6]
+Mar-13 06:58:25.961 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:25.971 [Task submitter] INFO  nextflow.Session - [9f/2473e5] Submitted process > annotate (1)
+Mar-13 06:58:26.404 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 68; name: GenerateVCF (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/3f/fa4486606978d9446db754c1dc0f83]
+Mar-13 06:58:26.412 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:26.423 [Task submitter] INFO  nextflow.Session - [dd/de952a] Submitted process > annotate (2)
+Mar-13 06:58:27.393 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 62; name: GenerateVCF (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/53/d1f9847f74fb8f3d0f5b268b588fec]
+Mar-13 06:58:27.404 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:27.405 [Task submitter] INFO  nextflow.Session - [cf/3fce82] Submitted process > getcutoff
+Mar-13 06:58:28.988 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 34; name: postFastQC (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/f8/c9fada39288b41d17e88b5a2f7e0c1]
+Mar-13 06:58:28.998 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:29.005 [Task submitter] INFO  nextflow.Session - [66/06890c] Submitted process > annotate (3)
+Mar-13 06:58:32.784 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 41; name: postFastQC (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/e2/ea8804c4354f84c5330d71fb6237e3]
+Mar-13 06:58:32.793 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:32.798 [Task submitter] INFO  nextflow.Session - [05/8feb7f] Submitted process > annotate (4)
+Mar-13 06:58:32.880 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 32; name: postFastQC (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/5e/2c95cc2fcdc3345afc0b13ea5e9f04]
+Mar-13 06:58:33.015 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 71; name: GenerateVCF (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/a3/e11d78fbe8c2a855a1c1ba89a69417]
+Mar-13 06:58:33.043 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:33.044 [Task submitter] INFO  nextflow.Session - [72/83f0ec] Submitted process > annotate (5)
+Mar-13 06:58:33.518 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 51; name: postFastQC (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/46/269e90966a5126aab83be84ca06155]
+Mar-13 06:58:34.752 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: preFastQC (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/9b/d289d80b50bf15b6ee8bc5205e2b7c]
+Mar-13 06:58:35.011 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 70; name: GenerateVCF (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/85/dfc3cd5df6f8b0a09a72a04b017412]
+Mar-13 06:58:35.033 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:35.042 [Task submitter] INFO  nextflow.Session - [fd/16b583] Submitted process > annotate (6)
+Mar-13 06:58:35.152 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 37; name: postFastQC (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/fc/cce5acc20b381c6dccb1d5d89be9dc]
+Mar-13 06:58:36.404 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 74; name: GenerateVCF (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/16/1a6888efdb553592302ce0e58288b3]
+Mar-13 06:58:36.421 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:36.428 [Task submitter] INFO  nextflow.Session - [be/46ccd2] Submitted process > annotate (7)
+Mar-13 06:58:36.728 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 39; name: postFastQC (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/1c/5dbb4c33bbff27e02c3893e79c9bba]
+Mar-13 06:58:37.148 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 42; name: postFastQC (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/c2/6a5c5e04f0f30029214eb318925a46]
+Mar-13 06:58:37.228 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 46; name: postFastQC (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/12/9de5a6678879a852ebfe3ce1554ba0]
+Mar-13 06:58:38.533 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 58; name: postFastQC (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/45/a692a78016fed4db1962e14f6f91dc]
+Mar-13 06:58:41.305 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 20; name: preFastQC (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/a9/12b2c9b56cdb7c8b74def7a1d7f49a]
+Mar-13 06:58:41.941 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 18; name: preFastQC (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/18/d06fa36066ebe667b72bfc3e51e5ec]
+Mar-13 06:58:42.178 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 17; name: preFastQC (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/81/a79d03a6c7cfc66bad347c28228a05]
+Mar-13 06:58:43.516 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 27; name: preFastQC (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/b5/6c201cc29cc61fddcccf295415b1c0]
+Mar-13 06:58:44.345 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 14; name: preFastQC (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/71/ad85ede24fb02398365ed057fee400]
+Mar-13 06:58:44.464 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 28; name: preFastQC (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/ea/60a03ee76887e6af3d721a7b582f08]
+Mar-13 06:58:45.507 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 24; name: preFastQC (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/78/e4ad72a65cae2c3820f446e5c4dd2a]
+Mar-13 06:58:46.027 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 23; name: preFastQC (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/77/5bea3192f501fdb6691fedc4af9f45]
+Mar-13 06:58:46.970 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 83; name: annotate (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/dd/de952a508f7b9220dbb09c25c720ea]
+Mar-13 06:58:46.981 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:46.982 [Task submitter] INFO  nextflow.Session - [a0/5e6d87] Submitted process > vartpype (1)
+Mar-13 06:58:47.378 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 76; name: GenerateVCF (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/47/5d7a0a3be0a3c4e35397e8d51257e6]
+Mar-13 06:58:47.386 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:47.386 [Task submitter] INFO  nextflow.Session - [19/1f702c] Submitted process > annotate (8)
+Mar-13 06:58:47.448 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 82; name: annotate (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/9f/2473e53603e07aceff215f18bd86fe]
+Mar-13 06:58:47.461 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:47.461 [Task submitter] INFO  nextflow.Session - [71/765f31] Submitted process > vartpype (2)
+Mar-13 06:58:48.080 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 85; name: annotate (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/66/06890ceb0cfd3ef0f940a4645774e7]
+Mar-13 06:58:48.087 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:48.088 [Task submitter] INFO  nextflow.Session - [c3/cc34d4] Submitted process > vartpype (3)
+Mar-13 06:58:48.561 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 90; name: vartpype (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/a0/5e6d87cb8b40580e6741dd65fd259f]
+Mar-13 06:58:48.572 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:48.574 [Task submitter] INFO  nextflow.Session - [1a/35636f] Submitted process > merge (1)
+Mar-13 06:58:49.136 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 92; name: vartpype (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/71/765f31da46c232f06de8fcc8832656]
+Mar-13 06:58:49.149 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:49.149 [Task submitter] INFO  nextflow.Session - [a5/c208fe] Submitted process > merge (2)
+Mar-13 06:58:49.272 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 86; name: annotate (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/05/8feb7f1ac27238e23822360a94ecc7]
+Mar-13 06:58:49.285 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:49.285 [Task submitter] INFO  nextflow.Session - [3d/04d2bf] Submitted process > vartpype (4)
+Mar-13 06:58:49.876 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 93; name: vartpype (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/c3/cc34d48fe1eb3ed70f40b0186dc577]
+Mar-13 06:58:49.885 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:49.885 [Task submitter] INFO  nextflow.Session - [d9/c83b35] Submitted process > merge (3)
+Mar-13 06:58:49.911 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 78; name: GenerateVCF (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/58/e6c3a06575907f03d87ecb6b2e60b2]
+Mar-13 06:58:49.915 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 87; name: annotate (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/72/83f0ec08840caadf3e3012933e197f]
+Mar-13 06:58:49.919 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:49.920 [Task submitter] INFO  nextflow.Session - [b1/3f6e1f] Submitted process > annotate (9)
+Mar-13 06:58:49.924 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:49.924 [Task submitter] INFO  nextflow.Session - [bf/c15a28] Submitted process > vartpype (5)
+Mar-13 06:58:50.093 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 94; name: merge (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/1a/35636f2877ea30b51b8972191420a1]
+Mar-13 06:58:50.100 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:50.100 [Task submitter] INFO  nextflow.Session - [2b/3e75d7] Submitted process > filter (1)
+Mar-13 06:58:50.495 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 95; name: merge (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/a5/c208fe6eb5f5697a2644358d3c5a23]
+Mar-13 06:58:50.501 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:50.501 [Task submitter] INFO  nextflow.Session - [ad/20b1dd] Submitted process > filter (2)
+Mar-13 06:58:50.874 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 100; name: filter (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/2b/3e75d7380bdc622608143169d91bbc]
+Mar-13 06:58:50.881 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:50.882 [Task submitter] INFO  nextflow.Session - [21/92bd48] Submitted process > extract (1)
+Mar-13 06:58:50.945 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 96; name: vartpype (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/3d/04d2bf6835a606b901395cfa7a2061]
+Mar-13 06:58:50.953 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:50.953 [Task submitter] INFO  nextflow.Session - [39/4308a1] Submitted process > merge (4)
+Mar-13 06:58:51.197 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 101; name: filter (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/ad/20b1dd5f30b395e6cb1779e3dfef16]
+Mar-13 06:58:51.212 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:51.212 [Task submitter] INFO  nextflow.Session - [b9/2feaa2] Submitted process > extract (2)
+Mar-13 06:58:51.221 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 97; name: merge (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/d9/c83b354da3da3c867a07dfa1917415]
+Mar-13 06:58:51.232 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:51.232 [Task submitter] INFO  nextflow.Session - [80/60f5ec] Submitted process > filter (3)
+Mar-13 06:58:51.349 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 88; name: annotate (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/fd/16b583b27fb3e8b11f14ca02b8552d]
+Mar-13 06:58:51.362 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:51.362 [Task submitter] INFO  nextflow.Session - [1d/17710d] Submitted process > vartpype (6)
+Mar-13 06:58:51.506 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 99; name: vartpype (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/bf/c15a28ee4a70598dcb0a0aa2c8fe30]
+Mar-13 06:58:51.516 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:51.516 [Task submitter] INFO  nextflow.Session - [31/953190] Submitted process > merge (5)
+Mar-13 06:58:51.593 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 102; name: extract (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/21/92bd487e55468cc4591031622f7e3c]
+Mar-13 06:58:51.603 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:51.604 [Task submitter] INFO  nextflow.Session - [ff/67f134] Submitted process > spread (1)
+Mar-13 06:58:51.991 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 104; name: extract (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/b9/2feaa2ae9930fe530e946de5695a59]
+Mar-13 06:58:51.994 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 105; name: filter (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/80/60f5ec41c14e0d423eeeff56ceb7da]
+Mar-13 06:58:51.996 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:51.996 [Task submitter] INFO  nextflow.Session - [0d/2d2870] Submitted process > spread (2)
+Mar-13 06:58:51.999 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:51.999 [Task submitter] INFO  nextflow.Session - [8b/ca6a84] Submitted process > extract (3)
+Mar-13 06:58:52.340 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 89; name: annotate (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/be/46ccd203c748b6ee781d787d33277d]
+Mar-13 06:58:52.347 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:52.348 [Task submitter] INFO  nextflow.Session - [a4/14c8c8] Submitted process > vartpype (7)
+Mar-13 06:58:52.348 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 103; name: merge (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/39/4308a16d1f903d915d1e46fdcf2f42]
+Mar-13 06:58:52.354 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:52.354 [Task submitter] INFO  nextflow.Session - [50/cb7280] Submitted process > filter (4)
+Mar-13 06:58:52.506 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 108; name: spread (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/ff/67f134f8038fc314a5322843affb6b]
+Mar-13 06:58:52.513 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:52.514 [Task submitter] INFO  nextflow.Session - [38/1df49e] Submitted process > snpfilter (1)
+Mar-13 06:58:52.702 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 110; name: extract (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/8b/ca6a842259bda229c7f164b7d57d5b]
+Mar-13 06:58:52.719 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:52.719 [Task submitter] INFO  nextflow.Session - [cc/e14134] Submitted process > spread (3)
+Mar-13 06:58:52.795 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 109; name: spread (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/0d/2d28704308cdba008403818280fab0]
+Mar-13 06:58:52.803 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:52.804 [Task submitter] INFO  nextflow.Session - [00/b1a075] Submitted process > snpfilter (2)
+Mar-13 06:58:52.948 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 107; name: merge (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/31/953190cf87c7a1c6f3a27e3380a657]
+Mar-13 06:58:52.963 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:52.963 [Task submitter] INFO  nextflow.Session - [6b/6ce072] Submitted process > filter (5)
+Mar-13 06:58:53.139 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 112; name: filter (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/50/cb7280a7606b46ad399fe6a0f9b13d]
+Mar-13 06:58:53.146 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:53.147 [Task submitter] INFO  nextflow.Session - [ac/f59779] Submitted process > extract (4)
+Mar-13 06:58:53.240 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 106; name: vartpype (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/1d/17710d4ea48e4a6f07ca33f7557915]
+Mar-13 06:58:53.248 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:53.249 [Task submitter] INFO  nextflow.Session - [9a/88773e] Submitted process > merge (6)
+Mar-13 06:58:53.498 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 45; name: preFastQC (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/c6/15c433809c32599ea87d23ef502211]
+Mar-13 06:58:53.538 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 114; name: spread (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/cc/e141341dd8f8d4d1ac6dc81030274f]
+Mar-13 06:58:53.563 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:53.564 [Task submitter] INFO  nextflow.Session - [e3/9945a7] Submitted process > snpfilter (3)
+Mar-13 06:58:53.634 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 116; name: filter (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/6b/6ce072eb48d1a7cdd6d92d5b67c776]
+Mar-13 06:58:53.641 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:53.641 [Task submitter] INFO  nextflow.Session - [36/196400] Submitted process > extract (5)
+Mar-13 06:58:53.886 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 117; name: extract (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/ac/f597799331f1921eba4b8c032aeb14]
+Mar-13 06:58:53.893 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:53.893 [Task submitter] INFO  nextflow.Session - [18/973553] Submitted process > spread (4)
+Mar-13 06:58:53.944 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 111; name: vartpype (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/a4/14c8c8fde19c700103943f2dcc7d58]
+Mar-13 06:58:53.951 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:53.951 [Task submitter] INFO  nextflow.Session - [6f/49d4a8] Submitted process > merge (7)
+Mar-13 06:58:54.386 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 118; name: merge (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/9a/88773e25aba76f738f9f38a06cc1e0]
+Mar-13 06:58:54.391 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:54.392 [Task submitter] INFO  nextflow.Session - [90/c4b05c] Submitted process > filter (6)
+Mar-13 06:58:54.407 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 120; name: extract (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/36/196400f718bf98afef0972efa60c3d]
+Mar-13 06:58:54.414 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:54.415 [Task submitter] INFO  nextflow.Session - [0d/f56c6a] Submitted process > spread (5)
+Mar-13 06:58:54.621 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 121; name: spread (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/18/97355367528209c9d4583d6028f757]
+Mar-13 06:58:54.629 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:54.630 [Task submitter] INFO  nextflow.Session - [0e/626663] Submitted process > snpfilter (4)
+Mar-13 06:58:55.014 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 123; name: filter (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/90/c4b05c2907012479a041c3261ca3e2]
+Mar-13 06:58:55.021 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:55.021 [Task submitter] INFO  nextflow.Session - [33/96c852] Submitted process > extract (6)
+Mar-13 06:58:55.079 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 124; name: spread (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/0d/f56c6af69c09720bf2506bed83d116]
+Mar-13 06:58:55.087 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:55.087 [Task submitter] INFO  nextflow.Session - [a8/19a898] Submitted process > snpfilter (5)
+Mar-13 06:58:55.112 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 122; name: merge (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/6f/49d4a830e5cbf4e1da60cbc517ceba]
+Mar-13 06:58:55.119 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:55.119 [Task submitter] INFO  nextflow.Session - [e3/eefee6] Submitted process > filter (7)
+Mar-13 06:58:55.384 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 81; name: GenerateVCF (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/6e/24fc896808ab66d970270656302dc0]
+Mar-13 06:58:55.391 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:55.391 [Task submitter] INFO  nextflow.Session - [0a/e491c2] Submitted process > annotate (10)
+Mar-13 06:58:55.572 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 126; name: extract (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/33/96c852faa735f02bcc83ebc1f0b301]
+Mar-13 06:58:55.578 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:55.578 [Task submitter] INFO  nextflow.Session - [10/b73720] Submitted process > spread (6)
+Mar-13 06:58:55.669 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 128; name: filter (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/e3/eefee6524b3856fc139639545acbbf]
+Mar-13 06:58:55.681 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:55.681 [Task submitter] INFO  nextflow.Session - [55/034e3b] Submitted process > extract (7)
+Mar-13 06:58:56.199 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 130; name: spread (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/10/b737206b1142b5a8c0957cde232106]
+Mar-13 06:58:56.207 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:56.207 [Task submitter] INFO  nextflow.Session - [64/c07362] Submitted process > snpfilter (6)
+Mar-13 06:58:56.250 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 131; name: extract (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/55/034e3bc8fa3719401f4355feaba7b6]
+Mar-13 06:58:56.260 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:56.260 [Task submitter] INFO  nextflow.Session - [bb/285170] Submitted process > spread (7)
+Mar-13 06:58:56.505 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 119; name: snpfilter (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/e3/9945a7c17f4f75c5c58659614082eb]
+Mar-13 06:58:56.549 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:56.549 [Task submitter] INFO  nextflow.Session - [a7/186b35] Submitted process > tojson (1)
+Mar-13 06:58:56.596 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 115; name: snpfilter (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/00/b1a075afe791e340aa8ac6f2054687]
+Mar-13 06:58:56.603 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:56.603 [Task submitter] INFO  nextflow.Session - [dd/3069cb] Submitted process > tojson (2)
+Mar-13 06:58:57.167 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 133; name: spread (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/bb/285170909347e8909425299460c9c9]
+Mar-13 06:58:57.175 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:57.175 [Task submitter] INFO  nextflow.Session - [b3/d76a65] Submitted process > snpfilter (7)
+Mar-13 06:58:57.266 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 113; name: snpfilter (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/38/1df49e3b02f4e392f0806806a0b4e2]
+Mar-13 06:58:57.280 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:57.280 [Task submitter] INFO  nextflow.Session - [3f/7d6550] Submitted process > tojson (3)
+Mar-13 06:58:57.453 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 134; name: tojson (1); status: COMPLETED; exit: 0; error: -; workDir: /data/work/a7/186b35dd36fc29fcd450f3ed46c260]
+Mar-13 06:58:57.549 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 135; name: tojson (2); status: COMPLETED; exit: 0; error: -; workDir: /data/work/dd/3069cbdd9ac1a3bd5cf3c5e67c2acf]
+Mar-13 06:58:57.565 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 125; name: snpfilter (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/0e/626663560e6724cffae4f06dd38cf4]
+Mar-13 06:58:57.577 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:57.577 [Task submitter] INFO  nextflow.Session - [b4/056be8] Submitted process > tojson (4)
+Mar-13 06:58:58.090 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 127; name: snpfilter (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/a8/19a898856a65dbae308e3edd0947cd]
+Mar-13 06:58:58.097 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:58.097 [Task submitter] INFO  nextflow.Session - [bd/eb7563] Submitted process > tojson (5)
+Mar-13 06:58:58.152 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 137; name: tojson (3); status: COMPLETED; exit: 0; error: -; workDir: /data/work/3f/7d6550bbedd4200cbc9e72a2c94758]
+Mar-13 06:58:58.263 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 138; name: tojson (4); status: COMPLETED; exit: 0; error: -; workDir: /data/work/b4/056be86cdcff96e1a6fe22775b5544]
+Mar-13 06:58:58.565 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 139; name: tojson (5); status: COMPLETED; exit: 0; error: -; workDir: /data/work/bd/eb7563138eb6cb939614300fb50aba]
+Mar-13 06:58:58.824 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 132; name: snpfilter (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/64/c073621ae1569f26bdd771f7992a24]
+Mar-13 06:58:58.829 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:58.829 [Task submitter] INFO  nextflow.Session - [64/436f0d] Submitted process > tojson (6)
+Mar-13 06:58:59.264 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 140; name: tojson (6); status: COMPLETED; exit: 0; error: -; workDir: /data/work/64/436f0d33d5aa3f57066330b53e9bec]
+Mar-13 06:58:59.365 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 136; name: snpfilter (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/b3/d76a65da261fdc645476bf1ef4e8ff]
+Mar-13 06:58:59.370 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:58:59.370 [Task submitter] INFO  nextflow.Session - [f6/62ecfc] Submitted process > tojson (7)
+Mar-13 06:58:59.841 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 141; name: tojson (7); status: COMPLETED; exit: 0; error: -; workDir: /data/work/f6/62ecfc3f27b00376b546e044030417]
+Mar-13 06:59:00.220 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 91; name: annotate (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/19/1f702c18267c0c142d499aad2ebab0]
+Mar-13 06:59:00.225 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:00.226 [Task submitter] INFO  nextflow.Session - [01/dea96a] Submitted process > vartpype (8)
+Mar-13 06:59:01.165 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 142; name: vartpype (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/01/dea96a52fb2d4abb3d280cb436aaaa]
+Mar-13 06:59:01.170 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:01.170 [Task submitter] INFO  nextflow.Session - [88/6a52cf] Submitted process > merge (8)
+Mar-13 06:59:01.836 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 143; name: merge (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/88/6a52cf759d0af1ed1daed87fdc50f6]
+Mar-13 06:59:01.840 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:01.840 [Task submitter] INFO  nextflow.Session - [69/bea5ee] Submitted process > filter (8)
+Mar-13 06:59:02.126 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 144; name: filter (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/69/bea5ee7f23bc29b93b30b04580763a]
+Mar-13 06:59:02.130 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:02.130 [Task submitter] INFO  nextflow.Session - [c0/388019] Submitted process > extract (8)
+Mar-13 06:59:02.370 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 98; name: annotate (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/b1/3f6e1f086acb16c199562001250485]
+Mar-13 06:59:02.375 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:02.375 [Task submitter] INFO  nextflow.Session - [82/16a55d] Submitted process > vartpype (9)
+Mar-13 06:59:02.451 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 145; name: extract (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/c0/38801980c16daae5233467889a7f8b]
+Mar-13 06:59:02.455 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:02.455 [Task submitter] INFO  nextflow.Session - [53/98b3e7] Submitted process > spread (8)
+Mar-13 06:59:02.900 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 147; name: spread (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/53/98b3e70ae6f2a563697462edbdc459]
+Mar-13 06:59:02.906 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:02.906 [Task submitter] INFO  nextflow.Session - [86/1cf93b] Submitted process > snpfilter (8)
+Mar-13 06:59:03.328 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 146; name: vartpype (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/82/16a55dbd2ede22c2354de1e448e5ee]
+Mar-13 06:59:03.334 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:03.335 [Task submitter] INFO  nextflow.Session - [49/170f17] Submitted process > merge (9)
+Mar-13 06:59:04.205 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 149; name: merge (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/49/170f17c2f6181680f587b68d7e2c2a]
+Mar-13 06:59:04.210 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:04.210 [Task submitter] INFO  nextflow.Session - [e9/8f3102] Submitted process > filter (9)
+Mar-13 06:59:04.538 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 150; name: filter (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/e9/8f31022ce58bf311e1beee9f77cd4a]
+Mar-13 06:59:04.542 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:04.542 [Task submitter] INFO  nextflow.Session - [ae/3b140d] Submitted process > extract (9)
+Mar-13 06:59:04.736 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 148; name: snpfilter (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/86/1cf93bb3419ee68424c84ebca07594]
+Mar-13 06:59:04.741 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:04.741 [Task submitter] INFO  nextflow.Session - [fd/6f6e14] Submitted process > tojson (8)
+Mar-13 06:59:04.868 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 151; name: extract (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/ae/3b140d783e6cdee0fa22e1472c2cbe]
+Mar-13 06:59:04.874 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:04.874 [Task submitter] INFO  nextflow.Session - [e6/428c41] Submitted process > spread (9)
+Mar-13 06:59:05.235 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 152; name: tojson (8); status: COMPLETED; exit: 0; error: -; workDir: /data/work/fd/6f6e14a46c739225b68683f825730b]
+Mar-13 06:59:05.303 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 153; name: spread (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/e6/428c410463995c9927371146b9e509]
+Mar-13 06:59:05.307 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:05.307 [Task submitter] INFO  nextflow.Session - [af/5551c8] Submitted process > snpfilter (9)
+Mar-13 06:59:06.143 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 129; name: annotate (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/0a/e491c2bc0efa8f1a52102d9e6c733b]
+Mar-13 06:59:06.146 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:06.146 [Task submitter] INFO  nextflow.Session - [77/1e386f] Submitted process > vartpype (10)
+Mar-13 06:59:06.667 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 154; name: snpfilter (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/af/5551c8fd21aa5d4cd5fe67ddee7643]
+Mar-13 06:59:06.671 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:06.671 [Task submitter] INFO  nextflow.Session - [ca/2db01f] Submitted process > tojson (9)
+Mar-13 06:59:06.991 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 155; name: vartpype (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/77/1e386f4c00e253a7e7c3f23fe67a82]
+Mar-13 06:59:06.996 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:06.996 [Task submitter] INFO  nextflow.Session - [25/acd9fd] Submitted process > merge (10)
+Mar-13 06:59:07.111 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 156; name: tojson (9); status: COMPLETED; exit: 0; error: -; workDir: /data/work/ca/2db01f5c05e3a7cb3074c9f5c48a9e]
+Mar-13 06:59:07.609 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 157; name: merge (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/25/acd9fdb21cf5f387f8798e4f8cfd95]
+Mar-13 06:59:07.612 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:07.612 [Task submitter] INFO  nextflow.Session - [f6/fb5af2] Submitted process > filter (10)
+Mar-13 06:59:07.886 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 158; name: filter (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/f6/fb5af24589a44746787850cd9e377c]
+Mar-13 06:59:07.889 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:07.889 [Task submitter] INFO  nextflow.Session - [8f/7f2fe8] Submitted process > extract (10)
+Mar-13 06:59:08.182 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 159; name: extract (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/8f/7f2fe86ef4861f2e1f6591f26a0419]
+Mar-13 06:59:08.185 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:08.185 [Task submitter] INFO  nextflow.Session - [9c/7ae0ad] Submitted process > spread (10)
+Mar-13 06:59:08.571 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 160; name: spread (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/9c/7ae0ad946cb2d2595eaa9fb87adc74]
+Mar-13 06:59:08.575 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:08.575 [Task submitter] INFO  nextflow.Session - [ed/26bd24] Submitted process > snpfilter (10)
+Mar-13 06:59:10.000 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 161; name: snpfilter (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/ed/26bd2415fb232162f7cff18305652e]
+Mar-13 06:59:10.003 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:10.003 [Task submitter] INFO  nextflow.Session - [e5/c8ac2c] Submitted process > tojson (10)
+Mar-13 06:59:10.404 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 162; name: tojson (10); status: COMPLETED; exit: 0; error: -; workDir: /data/work/e5/c8ac2c9db299e7a3d2753c3bd0ed33]
+Mar-13 06:59:16.557 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 84; name: getcutoff; status: COMPLETED; exit: 0; error: -; workDir: /data/work/cf/3fce822f8b2dbd2fc3db2689f8a48a]
+Mar-13 06:59:16.569 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-13 06:59:16.569 [Task submitter] INFO  nextflow.Session - [64/42d320] Submitted process > viz
+Mar-13 06:59:50.877 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 163; name: viz; status: COMPLETED; exit: 0; error: -; workDir: /data/work/64/42d320884c193f33c8290657c5489d]

@@ -1,0 +1,174 @@
+track name="No Track"
+DHFR	0	1827	DHFR-TS CDS	0	+
+DHFR	20	1778	Target	0	.
+DHFR	0	8	DHFR	0	+
+DHFR	0	1827	DHFR-TS gene	0	+
+DHFR	0	1827	DHFR-TS mRNA	0	+
+DHFR	0	1827	source Plasmodium falciparum 3D7	0	+
+DHFR	150	153	N51I	0	.
+DHFR	174	177	C58R	0	.
+DHFR	321	324	S108N	0	.
+DHPS	0	134	DHPS CDS	0	+
+DHPS	310	2179	DHPS CDS	0	+
+DHPS	2299	2415	DHPS CDS	0	+
+DHPS	1483	1485	GT	0	.
+DHPS	18	2364	Target	0	.
+DHPS	0	2415	DHPS gene	0	+
+DHPS	0	134	DHPS mRNA	0	+
+DHPS	310	2179	DHPS mRNA	0	+
+DHPS	2299	2415	DHPS mRNA	0	+
+DHPS	0	2415	source Plasmodium falciparum 3D7	0	+
+DHPS	1479	1482	S436A	0	.
+DHPS	1482	1483	A437G	0	.
+DHPS	1791	1794	G/K540E	0	.
+DHPS	2010	2013	A613S/T	0	.
+DHPS	1914	1917	A581G	0	.
+DHPS	0	0	AT	0	.
+K13	44	2129		0	+
+K13	0	2181	K13 CDS	0	+
+K13	0	2181	K13 gene	0	+
+K13	0	2181	K13 mRNA	0	+
+K13	0	2181	source Plasmodium falciparum	0	+
+K13	1737	1740	C580Y	0	.
+K13	1680	1683	R561H	0	.
+K13	1626	1629	I543T	0	.
+K13	1614	1617	R539T	0	.
+K13	1476	1479	Y493H	0	.
+K13	1925	1948	K13_R2_ET	0	-
+K13	1164	1186	K13_F2_ET	0	+
+K13	2124	2143	K13_R3_ET	0	-
+K13	49	68	K13_F3_ET	0	+
+K13	27	45	K13_F_ET	0	+
+K13	2129	2147	K13_R_ET	0	-
+K13	1344	1347	449 (G) ggt > gCt (A)	0	.
+K13	1371	1374	458 (N) aat > Tat (Y)	0	.
+K13	1419	1422	474 (T) aca > aTa (I)	0	.
+K13	1425	1428	476 (M) atg > atA (I)	0	.
+K13	1440	1443	481 (A) gct > gTt (V)	0	.
+K13	1476	1479	493 (Y) tac > Cac (H) 	0	.
+K13	1521	1524	508 (T) act > aAt (N)	0	.
+K13	1578	1581	527 (P) cct > Act (T)	0	.
+K13	1596	1599	533 (G) ggt > Agt (S)	0	.
+K13	1608	1611	537 (N) aat > aTt (I)	0	.
+K13	1614	1617	539 (R) aga > aCa (T)	0	.
+K13	1626	1629	543 (I) att > aCt (T)	0	.
+K13	1656	1659	553 (P) ccg > cTg (L)	0	.
+K13	1680	1683	561 (R) cgt > cAt (H)	0	.
+K13	1701	1704	568 (V) gtg > gGg (G)	0	.
+K13	1719	1722	574 (P) cct > cTt (L)	0	.
+K13	1737	1740	580 (C) tgt > tAt (Y)	0	.
+K13	1749	1752	584 (D) gat > gTt (V)	0	.
+K13	1833	1836	612 (E) gga > gaT (D)	0	.
+K13	1866	1869	623 (S) agt > Tgt (C)	0	.
+mitochondrial genome	24	5930	Target	0	.
+mitochondrial genome	0	21	PfMitch_Fa	0	+
+mitochondrial genome	5938	5967	PfMitch_Ra	0	-
+mitochondrial genome	0	5967	source Plasmodium falciparum	0	+
+mitochondrial genome	4262	4265	I258M	0	.
+mitochondrial genome	4292	4295	Y268S	0	.
+mitochondrial genome	1932	3471	coI CDS	0	+
+mitochondrial genome	3491	4622	CYTB CDS	0	+
+mitochondrial genome	733	1573	coxIII CDS	0	-
+mitochondrial genome	1932	3471	coI gene	0	+
+mitochondrial genome	3491	4622	CYTB gene	0	+
+mitochondrial genome	733	1573	coxIII gene	0	-
+PfCRT	95	3191	Target	0	.
+PfCRT	141	303	B5M47	0	+
+PfCRT	485	488	C72S	0	.
+PfCRT	0	3399	Extracted region from PfCRT_primersMapped	0	+
+PfCRT	95	3191	PfCRT gene	0	+
+PfCRT	95	186	PfCRT mRNA	0	+
+PfCRT	363	632	PfCRT mRNA	0	+
+PfCRT	811	984	PfCRT mRNA	0	+
+PfCRT	1156	1289	PfCRT mRNA	0	+
+PfCRT	1442	1514	PfCRT mRNA	0	+
+PfCRT	1637	1713	PfCRT mRNA	0	+
+PfCRT	1809	1892	PfCRT mRNA	0	+
+PfCRT	2019	2070	PfCRT mRNA	0	+
+PfCRT	2207	2264	PfCRT mRNA	0	+
+PfCRT	2412	2505	PfCRT mRNA	0	+
+PfCRT	2698	2743	PfCRT mRNA	0	+
+PfCRT	2890	2945	PfCRT mRNA	0	+
+PfCRT	3114	3191	PfCRT mRNA	0	+
+PfCRT	-458504	1043213	source Plasmodium falciparum 3D7	0	+
+PfCRT	95	186	PfCRT CDS	0	+
+PfCRT	363	632	PfCRT CDS	0	+
+PfCRT	811	984	PfCRT CDS	0	+
+PfCRT	1156	1289	PfCRT CDS	0	+
+PfCRT	1442	1514	PfCRT CDS	0	+
+PfCRT	1637	1713	PfCRT CDS	0	+
+PfCRT	1809	1892	PfCRT CDS	0	+
+PfCRT	2019	2070	PfCRT CDS	0	+
+PfCRT	2207	2264	PfCRT CDS	0	+
+PfCRT	2412	2505	PfCRT CDS	0	+
+PfCRT	2698	2743	PfCRT CDS	0	+
+PfCRT	2890	2945	PfCRT CDS	0	+
+PfCRT	3114	3191	PfCRT CDS	0	+
+PfCRT	247	317	MS1	0	.
+PfCRT	2309	2403	MS_3	0	.
+PfCRT	2978	3067	MS4	0	.
+PfCRT	1293	1373	MS2	0	.
+PfCRT	1728	1808	MS3	0	.
+PfCRT	2162	2235	Potential MS	0	.
+PfCRT	247	317	MS1	0	.
+PfCRT	78	109	Pfcrt_Alpha_ET_F2	0	+
+PfCRT	1673	1701	Pfcrt_Alpha_F5a	0	+
+PfCRT	81	106	Pfcrt_Alpha_ET_F1	0	+
+PfCRT	142	166	Pfcrt_Alpha_ET_F6a	0	+
+PfCRT	9	32	ET_pfcrt_ex1-4_F_v1	0	+
+PfCRT	1205	1228	ET_Pfcrt_ex4-13_Fv2	0	+
+PfCRT	1160	1183	Pfcrt_Alpha_ET_F3a	0	+
+PfCRT	1626	1649	Pfcrt_Alpha_F4a	0	+
+PfCRT	1175	1194	ET_pfcrt_ex4-13_F_v1	0	+
+PfCRT	497	500	K76T	0	.
+PfCRT	494	497	N75E	0	.
+PfCRT	491	494	M74I	0	.
+PfCRT	1280	1283	A220S	0	.
+PfCRT	1709	1712	Q271E	0	.
+PfCRT	2710	2713	R371I	0	.
+PfCRT	2454	2457	C350S	0	.
+PfCRT	2472	2475	I356T	0	.
+PfCRT	2234	2237	N326S	0	.
+PfCRT	485	488	C72S	0	.
+PfCRT	3162	3190	Pfcrt_Alpha_ET_R2	0	-
+PfCRT	3166	3190	Pfcrt_Alpha_ET_R1	0	-
+PfCRT	3319	3342	ET_pfcrt_ex4-13_R_v1	0	-
+PfCRT	1489	1510	ET_pfcrt_ex1-4_R_v2	0	-
+PfCRT	1870	1891	Pfcrt_Alpha_ET_R3a	0	-
+PfCRT	2047	2068	Pfcrt_Alpha_ET_R4a	0	-
+PfCRT	1629	1649	ET_pfcrt_ex1-4_R_v3	0	-
+PfCRT	1855	1874	Pfcrt_Alpha_ET_R6a	0	-
+PfCRT	1871	1890	Pfcrt_Alpha_ET_F7a	0	+
+PfCRT	1445	1463	ET_pfcrt_ex1-4_R_v1	0	-
+PfCRT	2023	2041	Pfcrt_Alpha_ET_R5a	0	-
+PfMDR1 	0	4260	PfMDR1 CDS	0	+
+PfMDR1 	49	4198	Target	0	.
+PfMDR1 	1875	2039	MDR1	0	+
+PfMDR1 	0	4260	PfMDR1 gene	0	+
+PfMDR1 	0	4260	PfMDR1 mRNA	0	+
+PfMDR1 	29	49	Pfmdr1_F_SC	0	+
+PfMDR1 	4203	4225	Pfmdr1_R_SC	0	-
+PfMDR1 	0	4260	source Plasmodium falciparum 3D7	0	+
+PfMDR1 	255	258	N86Y	0	.
+PfMDR1 	549	552	Y184F	0	.
+PfMDR1 	3099	3102	S1034C	0	.
+PfMDR1 	3123	3126	N1042D	0	.
+PfMDR1 	3735	3738	D1246Y	0	.
+track name="Junctions (Trimmed 18xxxx00x03D7PfB000_S104_L001_R_001)" Sample Name="Trimmed 18xxxx00x03D7PfB000_S104_L001_R_001" Sensitivity="Medium Sensitivity / Fast" Maximum Deletion Size=1,000 Creation Time="30 May 2018 11:08 AM"
+PfCRT	1986	1987	junction 3	0	.
+PfCRT	1990	1991	junction 3	0	.
+PfCRT	1772	1773	junction 2	0	.
+PfCRT	2338	2339	junction 2	0	.
+PfCRT	2188	2189	junction 4	0	.
+PfCRT	2193	2194	junction 4	0	.
+PfCRT	1051	1052	junction 1	0	.
+PfCRT	1105	1106	junction 1	0	.
+track name="Junctions (Trimmed 18xxxx00x07G8PfB000_S97_L001_R_001)" Sample Name="Trimmed 18xxxx00x07G8PfB000_S97_L001_R_001" Sensitivity="Medium Sensitivity / Fast" Maximum Deletion Size=1,000 Creation Time="30 May 2018 11:08 AM"
+PfCRT	1772	1773	junction 4	0	.
+PfCRT	2338	2339	junction 4	0	.
+PfCRT	1768	1769	junction 3	0	.
+PfCRT	2338	2339	junction 3	0	.
+PfCRT	1407	1408	junction 2	0	.
+PfCRT	1411	1412	junction 2	0	.
+PfCRT	1051	1052	junction 1	0	.
+PfCRT	1105	1106	junction 1	0	.

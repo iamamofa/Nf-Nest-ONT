@@ -1,0 +1,5 @@
+#File	19ANZa26F0100PfFxxx0_S110_L001_1.fastq	19ANZa26F0100PfFxxx0_S110_L001_2.fastq
+#Total	6654
+#Matched	3	0.04509%
+#Name	Reads	ReadsPct
+Nextera_transposase_read2	3	0.04509%

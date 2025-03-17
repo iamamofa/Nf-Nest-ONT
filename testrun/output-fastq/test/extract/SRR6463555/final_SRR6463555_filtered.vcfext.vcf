@@ -1,0 +1,21 @@
+CHROM	POS	REF	ALT	VARTYPE	Confidence	Sources	DP4	DP	AD	GEN[*].AD	ANN[*].EFFECT	ANN[*].HGVS_C	ANN[*].HGVS_P
+DHFR	1	A	T	SNP	1	Freebayes		7		4,2	initiator_codon_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	c.1A>T	c.-3653A>T	c.-185A>T	c.-1962A>T	c.-4007A>T	c.-6086A>T	c.-2012A>T	n.1A>T					p.Met1?											
+DHFR	152	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,115,56	171		0,183	missense_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	c.152A>T	c.-3502A>T	c.-1811A>T	c.-3856A>T	c.-5935A>T	c.-1861A>T	c.*152A>T	n.152A>T					p.Asn51Ile											
+DHFR	323	G	A	SNP	3	Samtools,GATK,Freebayes	0,0,121,117	241		0,252	missense_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	c.323G>A	c.-3331G>A	c.-1640G>A	c.-3685G>A	c.-5764G>A	c.-1690G>A	c.*323G>A	c.*228G>A	n.323G>A				p.Ser108Asn											
+DHPS	1486	C	G	SNP	3	Samtools,GATK,Freebayes	0,0,137,100	247		0,577	missense_variant	upstream_gene_variant	intragenic_variant	custom	c.1310C>G	c.-931C>G	n.1486C>G	n.1486C>G	p.Ala437Gly			
+DHPS	1487	A	T	SNP	2	Samtools,GATK	0,0,137,100	246		0,577	synonymous_variant	upstream_gene_variant	intragenic_variant	custom	c.1311A>T	c.-930A>T	n.1487A>T	n.1487A>T	p.Ala437Ala			
+DHPS	1794	A	G	SNP	3	Samtools,GATK,Freebayes	0,0,123,135	260		0,353	missense_variant	upstream_gene_variant	intragenic_variant	c.1618A>G	c.-623A>G	n.1794A>G	p.Lys540Glu		
+DHPS	2413	T	C	SNP	1	Freebayes		33		23,9	missense_variant	upstream_gene_variant	intragenic_variant	c.2117T>C	c.-4T>C	n.2413T>C	p.Val706Ala		
+DHPS	2414	G	A	SNP	1	Freebayes		49		17,26	synonymous_variant	upstream_gene_variant	intragenic_variant	c.2118G>A	c.-3G>A	n.2414G>A	p.Val706Val		
+DHPS	2415	T	A	SNP	1	Freebayes		47		25,14	stop_lost&splice_region_variant	upstream_gene_variant	intragenic_variant	c.2119T>A	c.-2T>A	n.2415T>A	p.Ter707Lysext*?		
+DHPS	2417	A	C	SNP	1	Freebayes		30		13,8	stop_lost&splice_region_variant	missense_variant	intragenic_variant	intragenic_variant	c.2121A>C	c.1A>C	n.2417A>C	n.2417A>C	p.Ter707Tyrext*?	p.Asn1His		
+mitochondrial_genome	4952	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,56,51	112		0,122	upstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intergenic_region	c.-3379A>G	c.*1481T>C	c.*330T>C	n.4952T>C	
+PfCRT	1117	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,1,1	2		0,2	downstream_gene_variant	intron_variant	intragenic_variant	c.*800A>T	c.535-39A>T	n.1117A>T	
+PfCRT	1588	T	A	SNP	1	GATK		6		4,2	downstream_gene_variant	intron_variant	intragenic_variant	c.*1271T>A	c.740-50T>A	n.1588T>A	
+PfCRT	1782	G	A	SNP	1	Freebayes		33		25,8	downstream_gene_variant	intron_variant	intragenic_variant	c.*1465G>A	c.816-29G>A	n.1782G>A	
+PfCRT	1786	G	A	SNP	1	Freebayes		40		32,8	downstream_gene_variant	intron_variant	intragenic_variant	c.*1469G>A	c.816-25G>A	n.1786G>A	
+PfCRT	2520	G	T	SNP	3	Samtools,GATK,Freebayes	0,0,14,14	29		0,29	downstream_gene_variant	intron_variant	intragenic_variant	c.*2203G>T	c.1099+15G>T	n.2520G>T	
+PfCRT	2701	T	G	SNP	1	Samtools	0,0,0,1	1			stop_lost&splice_region_variant	downstream_gene_variant	intragenic_variant	c.1102T>G	c.*2384T>G	n.2701T>G	p.Ter368Glyext*?		
+PfCRT	3104	G	A	SNP	3	Samtools,GATK,Freebayes	0,2,1,1	4		2,2	downstream_gene_variant	intron_variant	intragenic_variant	c.*2787G>A	c.1200-12G>A	n.3104G>A	
+PfMDR1	2520	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,30,27	57		0,65	synonymous_variant	intragenic_variant	c.2520T>C	n.2520T>C	p.Ala840Ala	
+PfMDR1	3207	T	G	SNP	3	Samtools,GATK,Freebayes	0,0,12,11	25		0,32	synonymous_variant	intragenic_variant	c.3207T>G	n.3207T>G	p.Thr1069Thr	

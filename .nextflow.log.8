@@ -1,0 +1,248 @@
+Mar-14 20:27:57.976 [main] DEBUG nextflow.cli.Launcher - $> nextflow run ./ont_new.nf -c ./inputfiles/nextflow.config -with-report ./inputfiles/output/output.html -work-dir ./work --input.fastq_path /home/bioinfo-pc-10/Desktop/Nf-NeST/barcode
+Mar-14 20:27:58.155 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.5
+Mar-14 20:27:58.186 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/bioinfo-pc-10/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.4,nf-tower@1.9.3,nf-wave@1.7.4
+Mar-14 20:27:58.205 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Mar-14 20:27:58.206 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Mar-14 20:27:58.210 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Mar-14 20:27:58.225 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Mar-14 20:27:58.251 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/bioinfo-pc-10/Desktop/Nf-NeST/nextflow.config
+Mar-14 20:27:58.255 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /home/bioinfo-pc-10/Desktop/Nf-NeST/./inputfiles/nextflow.config
+Mar-14 20:27:58.257 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/bioinfo-pc-10/Desktop/Nf-NeST/nextflow.config
+Mar-14 20:27:58.257 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/bioinfo-pc-10/Desktop/Nf-NeST/inputfiles/nextflow.config
+Mar-14 20:27:58.287 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/bioinfo-pc-10/.nextflow/secrets/store.json
+Mar-14 20:27:58.291 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@12f8b1d8] - activable => nextflow.secret.LocalSecretsProvider@12f8b1d8
+Mar-14 20:27:58.308 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Mar-14 20:27:58.914 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Mar-14 20:27:59.045 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Mar-14 20:27:59.069 [main] DEBUG nextflow.cli.CmdRun - Launching `./ont_new.nf` [marvelous_brenner] DSL2 - revision: 0516c8d13f
+Mar-14 20:27:59.071 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Mar-14 20:27:59.071 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Mar-14 20:27:59.140 [main] DEBUG nextflow.Session - Session UUID: 2639a690-d452-4483-a831-1ed65c5451e1
+Mar-14 20:27:59.140 [main] DEBUG nextflow.Session - Run name: marvelous_brenner
+Mar-14 20:27:59.141 [main] DEBUG nextflow.Session - Executor pool size: 8
+Mar-14 20:27:59.155 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Mar-14 20:27:59.163 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Mar-14 20:27:59.192 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.10.5 build 5935
+  Created: 04-03-2025 17:55 UTC (17:55 GHST)
+  System: Linux 6.11.0-19-generic
+  Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 11.0.9.1-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 49208@bioinfo-pc-10-HP-ProBook-450-G5 [127.0.1.1]
+  CPUs: 8 - Mem: 15 GB (1.1 GB) - Swap: 4 GB (4 GB)
+Mar-14 20:27:59.228 [main] DEBUG nextflow.Session - Work-dir: /home/bioinfo-pc-10/Desktop/Nf-NeST/work [ext2/ext3]
+Mar-14 20:27:59.229 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/bioinfo-pc-10/Desktop/Nf-NeST/bin
+Mar-14 20:27:59.243 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Mar-14 20:27:59.256 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Mar-14 20:27:59.298 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Mar-14 20:27:59.312 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Mar-14 20:27:59.513 [main] DEBUG nextflow.Session - Session start
+Mar-14 20:28:00.995 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Mar-14 20:28:01.166 [main] WARN  nextflow.script.ScriptMeta - Process with name 'merge' overrides a built-in operator with the same name
+Mar-14 20:28:01.167 [main] WARN  nextflow.script.ScriptMeta - Process with name 'filter' overrides a built-in operator with the same name
+Mar-14 20:28:01.300 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.301 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.311 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Mar-14 20:28:01.322 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=15 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Mar-14 20:28:01.325 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Mar-14 20:28:01.433 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.434 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.447 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.448 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.460 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.461 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.471 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.472 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.484 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.484 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.494 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.494 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.504 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.504 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.514 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.514 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.525 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.525 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.541 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.541 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.555 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.555 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.568 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.568 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.578 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.579 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.588 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.588 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.597 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.598 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.613 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.613 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.622 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-14 20:28:01.622 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-14 20:28:01.630 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_db825b7638fa19d9: /home/bioinfo-pc-10/Desktop/Nf-NeST/ont_new.nf
+Mar-14 20:28:01.631 [main] DEBUG nextflow.Session - Session aborted -- Cause: Multi-channel output cannot be applied to operator map for which argument is already provided
+Mar-14 20:28:01.636 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Mar-14 20:28:01.655 [main] DEBUG nextflow.Session - 
+Thread[Signal Dispatcher,9,system]
+
+Thread[Finalizer,8,system]
+  java.base@11.0.9.1-internal/java.lang.Object.wait(Native Method)
+  java.base@11.0.9.1-internal/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+  java.base@11.0.9.1-internal/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+  java.base@11.0.9.1-internal/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:170)
+
+Thread[AnsiLogObserver,5,main]
+  java.base@11.0.9.1-internal/java.lang.Object.wait(Native Method)
+  app//nextflow.trace.AnsiLogObserver.render0(AnsiLogObserver.groovy:185)
+  java.base@11.0.9.1-internal/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base@11.0.9.1-internal/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base@11.0.9.1-internal/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base@11.0.9.1-internal/java.lang.reflect.Method.invoke(Method.java:566)
+  app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+  app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1207)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+  app//groovy.lang.Closure.call(Closure.java:433)
+  app//groovy.lang.Closure.call(Closure.java:412)
+  app//groovy.lang.Closure.run(Closure.java:505)
+  java.base@11.0.9.1-internal/java.lang.Thread.run(Thread.java:834)
+
+Thread[main,5,main]
+  java.base@11.0.9.1-internal/java.lang.Thread.dumpThreads(Native Method)
+  java.base@11.0.9.1-internal/java.lang.Thread.getAllStackTraces(Thread.java:1658)
+  app//nextflow.util.SysHelper.dumpThreads(SysHelper.groovy:188)
+  app//nextflow.Session.abort(Session.groovy:800)
+  app//nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:149)
+  app//nextflow.cli.CmdRun.run(CmdRun.groovy:376)
+  app//nextflow.cli.Launcher.run(Launcher.groovy:503)
+  app//nextflow.cli.Launcher.main(Launcher.groovy:658)
+
+Thread[Common-Cleaner,8,InnocuousThreadGroup]
+  java.base@11.0.9.1-internal/java.lang.Object.wait(Native Method)
+  java.base@11.0.9.1-internal/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+  java.base@11.0.9.1-internal/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+  java.base@11.0.9.1-internal/java.lang.Thread.run(Thread.java:834)
+  java.base@11.0.9.1-internal/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+
+Thread[Task submitter,5,main]
+  java.base@11.0.9.1-internal/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@11.0.9.1-internal/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+  java.base@11.0.9.1-internal/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+  app//nextflow.processor.TaskPollingMonitor.awaitTasks(TaskPollingMonitor.groovy:388)
+  app//nextflow.processor.TaskPollingMonitor.submitLoop(TaskPollingMonitor.groovy:412)
+  java.base@11.0.9.1-internal/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base@11.0.9.1-internal/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base@11.0.9.1-internal/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base@11.0.9.1-internal/java.lang.reflect.Method.invoke(Method.java:566)
+  app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+  app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1207)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+  app//groovy.lang.Closure.call(Closure.java:433)
+  app//groovy.lang.Closure.call(Closure.java:412)
+  app//groovy.lang.Closure.run(Closure.java:505)
+  java.base@11.0.9.1-internal/java.lang.Thread.run(Thread.java:834)
+
+Thread[Actor Thread 2,5,main]
+  java.base@11.0.9.1-internal/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@11.0.9.1-internal/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+  java.base@11.0.9.1-internal/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+  java.base@11.0.9.1-internal/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+  java.base@11.0.9.1-internal/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+  java.base@11.0.9.1-internal/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+  java.base@11.0.9.1-internal/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+  java.base@11.0.9.1-internal/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  java.base@11.0.9.1-internal/java.lang.Thread.run(Thread.java:834)
+
+Thread[Reference Handler,10,system]
+  java.base@11.0.9.1-internal/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+  java.base@11.0.9.1-internal/java.lang.ref.Reference.processPendingReferences(Reference.java:241)
+  java.base@11.0.9.1-internal/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:213)
+
+Thread[process reaper,10,system]
+  java.base@11.0.9.1-internal/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@11.0.9.1-internal/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+  java.base@11.0.9.1-internal/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+  java.base@11.0.9.1-internal/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+  java.base@11.0.9.1-internal/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+  java.base@11.0.9.1-internal/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+  java.base@11.0.9.1-internal/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+  java.base@11.0.9.1-internal/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  java.base@11.0.9.1-internal/java.lang.Thread.run(Thread.java:834)
+
+Thread[Actor Thread 1,5,main]
+  java.base@11.0.9.1-internal/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@11.0.9.1-internal/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+  java.base@11.0.9.1-internal/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+  java.base@11.0.9.1-internal/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+  java.base@11.0.9.1-internal/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+  java.base@11.0.9.1-internal/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+  java.base@11.0.9.1-internal/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+  java.base@11.0.9.1-internal/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  java.base@11.0.9.1-internal/java.lang.Thread.run(Thread.java:834)
+
+Thread[Thread-1,5,main]
+  java.base@11.0.9.1-internal/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@11.0.9.1-internal/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+  java.base@11.0.9.1-internal/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+  java.base@11.0.9.1-internal/java.util.concurrent.LinkedBlockingDeque.pollFirst(LinkedBlockingDeque.java:513)
+  java.base@11.0.9.1-internal/java.util.concurrent.LinkedBlockingDeque.poll(LinkedBlockingDeque.java:675)
+  app//nextflow.util.SimpleAgent.run(SimpleAgent.groovy:89)
+  java.base@11.0.9.1-internal/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base@11.0.9.1-internal/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base@11.0.9.1-internal/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base@11.0.9.1-internal/java.lang.reflect.Method.invoke(Method.java:566)
+  app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+  app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1207)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+  app//groovy.lang.Closure.call(Closure.java:433)
+  app//groovy.lang.Closure.call(Closure.java:412)
+  app//groovy.lang.Closure.run(Closure.java:505)
+  java.base@11.0.9.1-internal/java.lang.Thread.run(Thread.java:834)
+
+Mar-14 20:28:01.657 [main] ERROR nextflow.cli.Launcher - Multi-channel output cannot be applied to operator map for which argument is already provided
+nextflow.exception.ScriptRuntimeException: Multi-channel output cannot be applied to operator map for which argument is already provided
+	at nextflow.extension.OpCall.setSource(OpCall.groovy:81)
+	at nextflow.extension.OpCall.setSource(OpCall.groovy:90)
+	at nextflow.extension.OpCall.<init>(OpCall.groovy:55)
+	at nextflow.plugin.extension.PluginExtensionProvider.invokeExtensionMethod(PluginExtensionProvider.groovy:280)
+	at groovy.runtime.metaclass.NextflowDelegatingMetaClass.invokeMethod(NextflowDelegatingMetaClass.java:58)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at Script_db825b7638fa19d9$_runScript_closure1$_closure23.doCall(Script_db825b7638fa19d9:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:279)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.Closure.call(Closure.java:433)
+	at groovy.lang.Closure.call(Closure.java:412)
+	at nextflow.script.WorkflowDef.run0(WorkflowDef.groovy:204)
+	at nextflow.script.WorkflowDef.run(WorkflowDef.groovy:188)
+	at nextflow.script.BindableDef.invoke_a(BindableDef.groovy:51)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.script.BaseScript.run0(BaseScript.groovy:198)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:209)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:236)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:243)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:138)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:376)
+	at nextflow.cli.Launcher.run(Launcher.groovy:503)
+	at nextflow.cli.Launcher.main(Launcher.groovy:658)

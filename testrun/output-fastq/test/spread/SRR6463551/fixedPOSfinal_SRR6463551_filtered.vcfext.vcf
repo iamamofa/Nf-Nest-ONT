@@ -1,0 +1,104 @@
+CHROM	POS	REF	ALT	VARTYPE	Confidence	Sources	DP4	DP	AD	GEN[*].AD	ANN[*].EFFECT	ANN[*].HGVS_C	ANN[*].HGVS_P
+DHFR	1	A	T	SNP	1	Freebayes	38	26,8	initiator_codon_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	c.1A>T	p.Met1?
+DHFR	1	A	T	SNP	1	Freebayes	38	26,8	initiator_codon_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	n.1A>T	p.Met1?
+DHFR	152	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,196,125	325	0,687	missense_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	c.152A>T	p.Asn51Ile
+DHFR	152	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,196,125	325	0,687	missense_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	c.*152A>T	p.Asn51Ile
+DHFR	152	A	T	SNP	3	Samtools,GATK,Freebayes	0,0,196,125	325	0,687	missense_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	n.152A>T	p.Asn51Ile
+DHFR	175	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,188,116	313	0,774	missense_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	c.175T>C	p.Cys59Arg
+DHFR	175	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,188,116	313	0,774	missense_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	c.*175T>C	p.Cys59Arg
+DHFR	175	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,188,116	313	0,774	missense_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	n.175T>C	p.Cys59Arg
+DHFR	323	G	A	SNP	3	Samtools,GATK,Freebayes	0,0,153,91	245	0,832	missense_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	c.323G>A	p.Ser108Asn
+DHFR	323	G	A	SNP	3	Samtools,GATK,Freebayes	0,0,153,91	245	0,832	missense_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	c.*323G>A	p.Ser108Asn
+DHFR	228	G	A	SNP	3	Samtools,GATK,Freebayes	0,0,153,91	245	0,832	missense_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	c.*228G>A	p.Ser108Asn
+DHFR	323	G	A	SNP	3	Samtools,GATK,Freebayes	0,0,153,91	245	0,832	missense_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intragenic_variant	non_coding_transcript_variant	non_coding_transcript_variant	non_coding_transcript_variant	n.323G>A	p.Ser108Asn
+DHPS	1307	C	T	SNP	1	GATK	724	579,142	missense_variant	upstream_gene_variant	intragenic_variant	custom	c.1307C>T	p.Ser436Phe
+DHPS	1483	C	T	SNP	1	GATK	724	579,142	missense_variant	upstream_gene_variant	intragenic_variant	custom	n.1483C>T	p.Ser436Phe
+DHPS	1483	C	T	SNP	1	GATK	724	579,142	missense_variant	upstream_gene_variant	intragenic_variant	custom	n.1483C>T	p.Ser436Phe
+DHPS	1310	C	G	SNP	3	Samtools,GATK,Freebayes	19,6,109,96	249	111,545	missense_variant	upstream_gene_variant	intragenic_variant	custom	c.1310C>G	p.Ala437Gly
+DHPS	1486	C	G	SNP	3	Samtools,GATK,Freebayes	19,6,109,96	249	111,545	missense_variant	upstream_gene_variant	intragenic_variant	custom	n.1486C>G	p.Ala437Gly
+DHPS	1486	C	G	SNP	3	Samtools,GATK,Freebayes	19,6,109,96	249	111,545	missense_variant	upstream_gene_variant	intragenic_variant	custom	n.1486C>G	p.Ala437Gly
+DHPS	1311	A	T	SNP	2	Samtools,GATK	0,0,128,102	247	0,656	synonymous_variant	upstream_gene_variant	intragenic_variant	custom	c.1311A>T	p.Ala437Ala
+DHPS	1487	A	T	SNP	2	Samtools,GATK	0,0,128,102	247	0,656	synonymous_variant	upstream_gene_variant	intragenic_variant	custom	n.1487A>T	p.Ala437Ala
+DHPS	1487	A	T	SNP	2	Samtools,GATK	0,0,128,102	247	0,656	synonymous_variant	upstream_gene_variant	intragenic_variant	custom	n.1487A>T	p.Ala437Ala
+DHPS	1618	A	G	SNP	3	Samtools,GATK,Freebayes	12,16,100,108	240	35,299	missense_variant	upstream_gene_variant	intragenic_variant	c.1618A>G	p.Lys540Glu
+DHPS	1794	A	G	SNP	3	Samtools,GATK,Freebayes	12,16,100,108	240	35,299	missense_variant	upstream_gene_variant	intragenic_variant	n.1794A>G	p.Lys540Glu
+DHPS	1837	G	T	SNP	2	Samtools,GATK	100,76,17,16	210	394,57	missense_variant	upstream_gene_variant	intragenic_variant	c.1837G>T	p.Ala613Ser
+DHPS	2013	G	T	SNP	2	Samtools,GATK	100,76,17,16	210	394,57	missense_variant	upstream_gene_variant	intragenic_variant	n.2013G>T	p.Ala613Ser
+DHPS	2117	T	C	SNP	1	Freebayes	30	23,6	missense_variant	upstream_gene_variant	intragenic_variant	c.2117T>C	p.Val706Ala
+DHPS	2413	T	C	SNP	1	Freebayes	30	23,6	missense_variant	upstream_gene_variant	intragenic_variant	n.2413T>C	p.Val706Ala
+DHPS	2118	G	A	SNP	1	Freebayes	51	21,29	synonymous_variant	upstream_gene_variant	intragenic_variant	c.2118G>A	p.Val706Val
+DHPS	2414	G	A	SNP	1	Freebayes	51	21,29	synonymous_variant	upstream_gene_variant	intragenic_variant	n.2414G>A	p.Val706Val
+DHPS	2119	T	A	SNP	1	Freebayes	48	31,11	stop_lost&splice_region_variant	upstream_gene_variant	intragenic_variant	c.2119T>A	p.Ter707Lysext*?
+DHPS	2415	T	A	SNP	1	Freebayes	48	31,11	stop_lost&splice_region_variant	upstream_gene_variant	intragenic_variant	n.2415T>A	p.Ter707Lysext*?
+DHPS	2121	A	T	SNP	1	Freebayes	30	8,13	stop_lost&splice_region_variant	missense_variant	intragenic_variant	intragenic_variant	c.2121A>T	p.Asn1Tyr
+DHPS	1	A	T	SNP	1	Freebayes	30	8,13	stop_lost&splice_region_variant	missense_variant	intragenic_variant	intragenic_variant	c.1A>T	p.Asn1Tyr
+DHPS	2417	A	T	SNP	1	Freebayes	30	8,13	stop_lost&splice_region_variant	missense_variant	intragenic_variant	intragenic_variant	n.2417A>T	p.Asn1Tyr
+DHPS	2417	A	T	SNP	1	Freebayes	30	8,13	stop_lost&splice_region_variant	missense_variant	intragenic_variant	intragenic_variant	n.2417A>T	p.Asn1Tyr
+K13	19	A	T	SNP	1	Samtools	0,0,1,1	57	stop_gained	intragenic_variant	c.19A>T	p.Lys7*
+K13	19	A	T	SNP	1	Samtools	0,0,1,1	57	stop_gained	intragenic_variant	n.19A>T	p.Lys7*
+K13	20	A	C	SNP	1	Samtools	0,0,1,1	60	missense_variant	intragenic_variant	c.20A>C	p.Lys7Thr
+K13	20	A	C	SNP	1	Samtools	0,0,1,1	60	missense_variant	intragenic_variant	n.20A>C	p.Lys7Thr
+K13	21	A	T	SNP	1	Samtools	0,0,1,1	62	missense_variant	intragenic_variant	c.21A>T	p.Lys7Asn
+K13	21	A	T	SNP	1	Samtools	0,0,1,1	62	missense_variant	intragenic_variant	n.21A>T	p.Lys7Asn
+K13	23	C	G	SNP	1	Samtools	2,1,1,1	63	missense_variant	intragenic_variant	c.23C>G	p.Thr8Arg
+K13	23	C	G	SNP	1	Samtools	2,1,1,1	63	missense_variant	intragenic_variant	n.23C>G	p.Thr8Arg
+K13	27	A	T	SNP	1	GATK	7	0,7	missense_variant	intragenic_variant	c.27A>T	p.Lys9Asn
+K13	27	A	T	SNP	1	GATK	7	0,7	missense_variant	intragenic_variant	n.27A>T	p.Lys9Asn
+K13	54	G	A	SNP	3	Samtools,GATK,Freebayes	25,26,21,23	95	21,10	missense_variant	intragenic_variant	c.54G>A	p.Met18Ile
+K13	54	G	A	SNP	3	Samtools,GATK,Freebayes	25,26,21,23	95	21,10	missense_variant	intragenic_variant	n.54G>A	p.Met18Ile
+K13	107	G	A	SNP	3	Samtools,GATK,Freebayes	59,59,43,42	203	88,58	missense_variant	intragenic_variant	c.107G>A	p.Ser36Asn
+K13	107	G	A	SNP	3	Samtools,GATK,Freebayes	59,59,43,42	203	88,58	missense_variant	intragenic_variant	n.107G>A	p.Ser36Asn
+K13	566	A	C	SNP	2	Samtools,GATK	28,22,4,7	61	50,12	missense_variant	intragenic_variant	c.566A>C	p.Lys189Thr
+K13	566	A	C	SNP	2	Samtools,GATK	28,22,4,7	61	50,12	missense_variant	intragenic_variant	n.566A>C	p.Lys189Thr
+K13	2149	T	A	SNP	1	Freebayes	6	0,6	missense_variant	intragenic_variant	c.2149T>A	p.Phe717Ile
+K13	2149	T	A	SNP	1	Freebayes	6	0,6	missense_variant	intragenic_variant	n.2149T>A	p.Phe717Ile
+K13	2150	T	A	SNP	1	Freebayes	6	0,6	missense_variant	intragenic_variant	c.2150T>A	p.Phe717Tyr
+K13	2150	T	A	SNP	1	Freebayes	6	0,6	missense_variant	intragenic_variant	n.2150T>A	p.Phe717Tyr
+K13	2152	G	A	SNP	1	Freebayes	5	0,5	missense_variant	intragenic_variant	c.2152G>A	p.Gly718Ser
+K13	2152	G	A	SNP	1	Freebayes	5	0,5	missense_variant	intragenic_variant	n.2152G>A	p.Gly718Ser
+K13	2155	C	A	SNP	1	Freebayes	5	0,5	missense_variant	intragenic_variant	c.2155C>A	p.His719Asn
+K13	2155	C	A	SNP	1	Freebayes	5	0,5	missense_variant	intragenic_variant	n.2155C>A	p.His719Asn
+K13	2156	A	T	SNP	1	Freebayes	5	0,5	missense_variant	intragenic_variant	c.2156A>T	p.His719Leu
+K13	2156	A	T	SNP	1	Freebayes	5	0,5	missense_variant	intragenic_variant	n.2156A>T	p.His719Leu
+K13	2160	C	A	SNP	1	Freebayes	4	1,2	synonymous_variant	intragenic_variant	c.2160C>A	p.Ser720Ser
+K13	2160	C	A	SNP	1	Freebayes	4	1,2	synonymous_variant	intragenic_variant	n.2160C>A	p.Ser720Ser
+K13	2161	G	A	SNP	1	Freebayes	4	2,2	missense_variant	intragenic_variant	c.2161G>A	p.Val721Ile
+K13	2161	G	A	SNP	1	Freebayes	4	2,2	missense_variant	intragenic_variant	n.2161G>A	p.Val721Ile
+K13	2162	T	A	SNP	1	Freebayes	3	1,2	missense_variant	intragenic_variant	c.2162T>A	p.Val721Asp
+K13	2162	T	A	SNP	1	Freebayes	3	1,2	missense_variant	intragenic_variant	n.2162T>A	p.Val721Asp
+K13	2165	T	G	SNP	1	Freebayes	5	2,2	stop_gained	intragenic_variant	c.2165T>G	p.Leu722*
+K13	2165	T	G	SNP	1	Freebayes	5	2,2	stop_gained	intragenic_variant	n.2165T>G	p.Leu722*
+mitochondrial_genome	714	A	T	SNP	1	Freebayes	9	7,2	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	intergenic_region	c.*714T>A
+mitochondrial_genome	20	A	T	SNP	1	Freebayes	9	7,2	upstream_gene_variant	upstream_gene_variant	downstream_gene_variant	intergenic_region	n.20A>T
+mitochondrial_genome	1584	T	C	SNP	3	Samtools,GATK,Freebayes	104,73,26,23	231	243,106	upstream_gene_variant	upstream_gene_variant	upstream_gene_variant	intergenic_region	n.1584T>C
+mitochondrial_genome	1481	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,123,100	241	0,260	upstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intergenic_region	c.*1481T>C
+mitochondrial_genome	330	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,123,100	241	0,260	upstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intergenic_region	c.*330T>C
+mitochondrial_genome	4952	T	C	SNP	3	Samtools,GATK,Freebayes	0,0,123,100	241	0,260	upstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intergenic_region	n.4952T>C
+mitochondrial_genome	2027	C	T	SNP	3	Samtools,GATK,Freebayes	31,45,48,51	176	75,111	upstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intergenic_region	c.*2027C>T
+mitochondrial_genome	876	C	T	SNP	3	Samtools,GATK,Freebayes	31,45,48,51	176	75,111	upstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intergenic_region	c.*876C>T
+mitochondrial_genome	5498	C	T	SNP	3	Samtools,GATK,Freebayes	31,45,48,51	176	75,111	upstream_gene_variant	downstream_gene_variant	downstream_gene_variant	intergenic_region	n.5498C>T
+PfCRT	488	T	G	SNP	1	GATK	147	130,16	splice_region_variant&intron_variant	downstream_gene_variant	intragenic_variant	c.*488T>G
+PfCRT	805	T	G	SNP	1	GATK	147	130,16	splice_region_variant&intron_variant	downstream_gene_variant	intragenic_variant	n.805T>G
+PfCRT	800	A	T	SNP	3	Samtools,GATK,Freebayes	1,1,2,2	6	2,4	downstream_gene_variant	intron_variant	intragenic_variant	c.*800A>T
+PfCRT	1117	A	T	SNP	3	Samtools,GATK,Freebayes	1,1,2,2	6	2,4	downstream_gene_variant	intron_variant	intragenic_variant	n.1117A>T
+PfCRT	2691	T	A	SNP	1	Freebayes	2	0,2	downstream_gene_variant	intron_variant	intragenic_variant	c.*2691T>A
+PfCRT	3008	T	A	SNP	1	Freebayes	2	0,2	downstream_gene_variant	intron_variant	intragenic_variant	n.3008T>A
+PfMDR1	398	G	A	SNP	1	GATK	204	186,16	missense_variant	intragenic_variant	c.398G>A	p.Arg133Lys
+PfMDR1	398	G	A	SNP	1	GATK	204	186,16	missense_variant	intragenic_variant	n.398G>A	p.Arg133Lys
+PfMDR1	546	T	G	SNP	3	Samtools,GATK,Freebayes	65,87,13,22	195	153,44	synonymous_variant	intragenic_variant	c.546T>G	p.Gly182Gly
+PfMDR1	546	T	G	SNP	3	Samtools,GATK,Freebayes	65,87,13,22	195	153,44	synonymous_variant	intragenic_variant	n.546T>G	p.Gly182Gly
+PfMDR1	551	A	T	SNP	3	Samtools,GATK,Freebayes	43,39,44,52	184	85,103	missense_variant	intragenic_variant	custom	c.551A>T	p.Tyr184Phe
+PfMDR1	551	A	T	SNP	3	Samtools,GATK,Freebayes	43,39,44,52	184	85,103	missense_variant	intragenic_variant	custom	n.551A>T	p.Tyr184Phe
+PfMDR1	551	A	T	SNP	3	Samtools,GATK,Freebayes	43,39,44,52	184	85,103	missense_variant	intragenic_variant	custom	n.551A>T	p.Tyr184Phe
+PfMDR1	786	T	A	SNP	1	GATK	227	190,32	synonymous_variant	intragenic_variant	c.786T>A	p.Thr262Thr
+PfMDR1	786	T	A	SNP	1	GATK	227	190,32	synonymous_variant	intragenic_variant	n.786T>A	p.Thr262Thr
+PfMDR1	1301	A	C	SNP	1	GATK	71	64,7	missense_variant	intragenic_variant	c.1301A>C	p.Glu434Ala
+PfMDR1	1301	A	C	SNP	1	GATK	71	64,7	missense_variant	intragenic_variant	n.1301A>C	p.Glu434Ala
+PfMDR1	2791	A	G	SNP	2	Samtools,GATK	63,63,13,12	154	131,27	missense_variant	intragenic_variant	c.2791A>G	p.Ile931Val
+PfMDR1	2791	A	G	SNP	2	Samtools,GATK	63,63,13,12	154	131,27	missense_variant	intragenic_variant	n.2791A>G	p.Ile931Val
+PfMDR1	3207	T	G	SNP	3	Samtools,GATK,Freebayes	36,36,8,7	91	72,19	synonymous_variant	intragenic_variant	c.3207T>G	p.Thr1069Thr
+PfMDR1	3207	T	G	SNP	3	Samtools,GATK,Freebayes	36,36,8,7	91	72,19	synonymous_variant	intragenic_variant	n.3207T>G	p.Thr1069Thr
+PfMDR1	3826	G	A	SNP	3	Samtools,GATK,Freebayes	74,65,48,50	237	140,95	missense_variant	intragenic_variant	c.3826G>A	p.Ala1276Thr
+PfMDR1	3826	G	A	SNP	3	Samtools,GATK,Freebayes	74,65,48,50	237	140,95	missense_variant	intragenic_variant	n.3826G>A	p.Ala1276Thr
+PfMDR1	3867	T	C	SNP	1	GATK	264	230,28	synonymous_variant	intragenic_variant	c.3867T>C	p.Ala1289Ala
+PfMDR1	3867	T	C	SNP	1	GATK	264	230,28	synonymous_variant	intragenic_variant	n.3867T>C	p.Ala1289Ala

@@ -1,0 +1,179 @@
+##gff-version
+##source-version	geneious	2020.1.1	
+##sequence-region	DHFR	0	1827
+DHFR	Geneious	CDS	0	1827	.	+	0	Name=DHFR-TS	CDS
+DHFR	Geneious	InterestMotif	20	1778	.	.	.	Name=Target
+DHFR	Geneious	STS	0	8	.	+	.	Name=DHFR
+DHFR	Geneious	gene	0	1827	.	+	.	Name=DHFR-TS	gene
+DHFR	Geneious	mRNA	0	1827	.	+	.	Name=DHFR-TS	mRNA
+DHFR	Geneious	source	0	1827	.	+	.	Name=source	Plasmodium	falciparum	3D7
+DHFR	Geneious	TrackerSNP	150	153	.	.	.	Name=N51I
+DHFR	Geneious	TrackerSNP	174	177	.	.	.	Name=C58R
+DHFR	Geneious	TrackerSNP	321	324	.	.	.	Name=S108N
+##sequence-region	DHPS	0	2415
+DHPS	Geneious	CDS	0	134	.	+	2	Name=DHPS	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712230.12
+DHPS	Geneious	CDS	310	2179	.	+	2	Name=DHPS	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712230.12
+DHPS	Geneious	CDS	2299	2415	.	+	2	Name=DHPS	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712230.12
+DHPS	Geneious	Editing	-1	Replacement	1484	1485	.	.	.	Name=GT
+DHPS	Geneious	InterestMotif	18	2364	.	.	.	Name=Target
+DHPS	Geneious	gene	0	2415	.	+	.	Name=DHPS	gene
+DHPS	Geneious	mRNA	0	134	.	+	.	Name=DHPS	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712230.13
+DHPS	Geneious	mRNA	310	2179	.	+	.	Name=DHPS	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712230.13
+DHPS	Geneious	mRNA	2299	2415	.	+	.	Name=DHPS	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712230.13
+DHPS	Geneious	source	0	2415	.	+	.	Name=source	Plasmodium	falciparum	3D7
+DHPS	Geneious	SNP	1479	1482	.	.	.	Name=S436A
+DHPS	Geneious	SNP	1482	1483	.	.	.	Name=A437G
+DHPS	Geneious	TrackerSNP	1791	1794	.	.	.	Name=G/K540E
+DHPS	Geneious	TrackerSNP	2010	2013	.	.	.	Name=A613S/T
+DHPS	Geneious	TrackerSNP	1914	1917	.	.	.	Name=A581G
+##sequence-region	K13	0	2181
+K13	Geneious	InterestMotif	44	2129	.	+	.	Name=
+K13	Geneious	cds	0	2181	.	+	0	Name=K13	CDS
+K13	Geneious	gene	0	2181	.	+	.	Name=K13	gene
+K13	Geneious	mrna	0	2181	.	+	.	Name=K13	mRNA
+K13	Geneious	source	0	2181	.	+	.	Name=source	Plasmodium	falciparum
+K13	Geneious	TrackerSNP	1737	1740	.	.	.	Name=C580Y
+K13	Geneious	TrackerSNP	1680	1683	.	.	.	Name=R561H
+K13	Geneious	TrackerSNP	1626	1629	.	.	.	Name=I543T
+K13	Geneious	TrackerSNP	1614	1617	.	.	.	Name=R539T
+K13	Geneious	TrackerSNP	1476	1479	.	.	.	Name=Y493H
+K13	Geneious	primer_bind_reverse	1925	1948	.	-	.	Name=K13_R2_ET
+K13	Geneious	primer_bind_reverse	1164	1186	.	+	.	Name=K13_F2_ET
+K13	Geneious	primer_bind_reverse	2124	2143	.	-	.	Name=K13_R3_ET
+K13	Geneious	primer_bind_reverse	49	68	.	+	.	Name=K13_F3_ET
+K13	Geneious	primer_bind_reverse	27	45	.	+	.	Name=K13_F_ET
+K13	Geneious	primer_bind_reverse	2129	2147	.	-	.	Name=K13_R_ET
+K13	Geneious	SNP	1344	1347	.	.	.	Name=449	(G)	ggt	>	gCt	(A)
+K13	Geneious	SNP	1371	1374	.	.	.	Name=458	(N)	aat	>	Tat	(Y)
+K13	Geneious	SNP	1419	1422	.	.	.	Name=474	(T)	aca	>	aTa	(I)
+K13	Geneious	SNP	1425	1428	.	.	.	Name=476	(M)	atg	>	atA	(I)
+K13	Geneious	SNP	1440	1443	.	.	.	Name=481	(A)	gct	>	gTt	(V)
+K13	Geneious	SNP	1476	1479	.	.	.	Name=493	(Y)	tac	>	Cac	(H)
+K13	Geneious	SNP	1521	1524	.	.	.	Name=508	(T)	act	>	aAt	(N)
+K13	Geneious	SNP	1578	1581	.	.	.	Name=527	(P)	cct	>	Act	(T)
+K13	Geneious	SNP	1596	1599	.	.	.	Name=533	(G)	ggt	>	Agt	(S)
+K13	Geneious	SNP	1608	1611	.	.	.	Name=537	(N)	aat	>	aTt	(I)
+K13	Geneious	SNP	1614	1617	.	.	.	Name=539	(R)	aga	>	aCa	(T)
+K13	Geneious	SNP	1626	1629	.	.	.	Name=543	(I)	att	>	aCt	(T)
+K13	Geneious	SNP	1656	1659	.	.	.	Name=553	(P)	ccg	>	cTg	(L)
+K13	Geneious	SNP	1680	1683	.	.	.	Name=561	(R)	cgt	>	cAt	(H)
+K13	Geneious	SNP	1701	1704	.	.	.	Name=568	(V)	gtg	>	gGg	(G)
+K13	Geneious	SNP	1719	1722	.	.	.	Name=574	(P)	cct	>	cTt	(L)
+K13	Geneious	SNP	1737	1740	.	.	.	Name=580	(C)	tgt	>	tAt	(Y)
+K13	Geneious	SNP	1749	1752	.	.	.	Name=584	(D)	gat	>	gTt	(V)
+K13	Geneious	SNP	1833	1836	.	.	.	Name=612	(E)	gga	>	gaT	(D)
+K13	Geneious	SNP	1866	1869	.	.	.	Name=623	(S)	agt	>	Tgt	(C)
+##sequence-region	mitochondrial_genome	0	5967
+mitochondrial_genome	Geneious	region	0	5967	.	+	0	Is_circular=true
+mitochondrial_genome	Geneious	InterestMotif	24	5930	.	.	.	Name=Target
+mitochondrial_genome	Geneious	primer_bind	0	21	.	+	.	Name=PfMitch_Fa
+mitochondrial_genome	Geneious	primer_bind_reverse	5938	5967	.	-	.	Name=PfMitch_Ra
+mitochondrial_genome	Geneious	source	0	5967	.	+	.	Name=source	Plasmodium	falciparum
+mitochondrial_genome	Geneious	TrackerSNP	4262	4265	.	.	.	Name=I258M
+mitochondrial_genome	Geneious	TrackerSNP	4292	4295	.	.	.	Name=Y268S
+mitochondrial_genome	Geneious	CDS	1932	3471	.	+	0	Name=coI	CDS
+mitochondrial_genome	Geneious	CDS	3491	4622	.	+	0	Name=CYTB	CDS
+mitochondrial_genome	Geneious	CDS	733	1573	.	-	0	Name=coxIII	CDS
+mitochondrial_genome	Geneious	gene	1932	3471	.	+	.	Name=coI	gene
+mitochondrial_genome	Geneious	gene	3491	4622	.	+	.	Name=CYTB	gene
+mitochondrial_genome	Geneious	gene	733	1573	.	-	.	Name=coxIII	gene
+##sequence-region	PfCRT	0	3399
+PfCRT	Geneious	InterestMotif	95	3191	.	.	.	Name=Target
+PfCRT	Geneious	STS	141	303	.	+	.	Name=B5M47
+PfCRT	Geneious	SingleTracker	485	488	.	.	.	Name=C72S
+PfCRT	Geneious	extracted	-1	1	3399	.	+	.	Name=Extracted	region	from	PfCRT_primersMapped
+PfCRT	Geneious	gene	95	3191	.	+	.	Name=PfCRT	gene
+PfCRT	Geneious	mRNA	95	186	.	+	.	Name=PfCRT	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.14
+PfCRT	Geneious	mRNA	363	632	.	+	.	Name=PfCRT	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.14
+PfCRT	Geneious	mRNA	811	984	.	+	.	Name=PfCRT	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.14
+PfCRT	Geneious	mRNA	1156	1289	.	+	.	Name=PfCRT	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.14
+PfCRT	Geneious	mRNA	1442	1514	.	+	.	Name=PfCRT	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.14
+PfCRT	Geneious	mRNA	1637	1713	.	+	.	Name=PfCRT	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.14
+PfCRT	Geneious	mRNA	1809	1892	.	+	.	Name=PfCRT	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.14
+PfCRT	Geneious	mRNA	2019	2070	.	+	.	Name=PfCRT	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.14
+PfCRT	Geneious	mRNA	2207	2264	.	+	.	Name=PfCRT	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.14
+PfCRT	Geneious	mRNA	2412	2505	.	+	.	Name=PfCRT	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.14
+PfCRT	Geneious	mRNA	2698	2743	.	+	.	Name=PfCRT	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.14
+PfCRT	Geneious	mRNA	2890	2945	.	+	.	Name=PfCRT	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.14
+PfCRT	Geneious	mRNA	3114	3191	.	+	.	Name=PfCRT	mRNA;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.14
+PfCRT	Geneious	source	-458504	1043213	.	+	.	Name=source	Plasmodium	falciparum	3D7
+PfCRT	Geneious	CDS	95	186	.	+	0	Name=PfCRT	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.15
+PfCRT	Geneious	CDS	363	632	.	+	0	Name=PfCRT	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.15
+PfCRT	Geneious	CDS	811	984	.	+	0	Name=PfCRT	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.15
+PfCRT	Geneious	CDS	1156	1289	.	+	0	Name=PfCRT	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.15
+PfCRT	Geneious	CDS	1442	1514	.	+	0	Name=PfCRT	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.15
+PfCRT	Geneious	CDS	1637	1713	.	+	0	Name=PfCRT	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.15
+PfCRT	Geneious	CDS	1809	1892	.	+	0	Name=PfCRT	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.15
+PfCRT	Geneious	CDS	2019	2070	.	+	0	Name=PfCRT	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.15
+PfCRT	Geneious	CDS	2207	2264	.	+	0	Name=PfCRT	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.15
+PfCRT	Geneious	CDS	2412	2505	.	+	0	Name=PfCRT	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.15
+PfCRT	Geneious	CDS	2698	2743	.	+	0	Name=PfCRT	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.15
+PfCRT	Geneious	CDS	2890	2945	.	+	0	Name=PfCRT	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.15
+PfCRT	Geneious	CDS	3114	3191	.	+	0	Name=PfCRT	CDS;ID=h+b0TcxH/nDe92m/YJoIVqWQzZA.1614358712232.15
+PfCRT	Geneious	CDS	247	317	.	.	.	Name=MS1
+PfCRT	Geneious	microsat_marker	2309	2403	.	.	.	Name=MS_3
+PfCRT	Geneious	microsat_marker	2978	3067	.	.	.	Name=MS4
+PfCRT	Geneious	microsat_marker	1293	1373	.	.	.	Name=MS2
+PfCRT	Geneious	microsat_marker	1728	1808	.	.	.	Name=MS3
+PfCRT	Geneious	microsat_marker	2162	2235	.	.	.	Name=Potential	MS
+PfCRT	Geneious	microsat_marker	247	317	.	.	.	Name=MS1
+PfCRT	Geneious	primer_bind	78	109	.	+	.	Name=Pfcrt_Alpha_ET_F2
+PfCRT	Geneious	primer_bind	1673	1701	.	+	.	Name=Pfcrt_Alpha_F5a
+PfCRT	Geneious	primer_bind	81	106	.	+	.	Name=Pfcrt_Alpha_ET_F1
+PfCRT	Geneious	primer_bind	142	166	.	+	.	Name=Pfcrt_Alpha_ET_F6a
+PfCRT	Geneious	primer_bind	9	32	.	+	.	Name=ET_pfcrt_ex1-4_F_v1
+PfCRT	Geneious	primer_bind	1205	1228	.	+	.	Name=ET_Pfcrt_ex4-13_Fv2
+PfCRT	Geneious	primer_bind	1160	1183	.	+	.	Name=Pfcrt_Alpha_ET_F3a
+PfCRT	Geneious	primer_bind	1626	1649	.	+	.	Name=Pfcrt_Alpha_F4a
+PfCRT	Geneious	primer_bind	1175	1194	.	+	.	Name=ET_pfcrt_ex4-13_F_v1
+PfCRT	Geneious	TrackerSNP	497	500	.	.	.	Name=K76T
+PfCRT	Geneious	TrackerSNP	494	497	.	.	.	Name=N75E
+PfCRT	Geneious	TrackerSNP	491	494	.	.	.	Name=M74I
+PfCRT	Geneious	TrackerSNP	1280	1283	.	.	.	Name=A220S
+PfCRT	Geneious	TrackerSNP	1709	1712	.	.	.	Name=Q271E
+PfCRT	Geneious	TrackerSNP	2710	2713	.	.	.	Name=R371I
+PfCRT	Geneious	TrackerSNP	2454	2457	.	.	.	Name=C350S
+PfCRT	Geneious	TrackerSNP	2472	2475	.	.	.	Name=I356T
+PfCRT	Geneious	TrackerSNP	2234	2237	.	.	.	Name=N326S
+PfCRT	Geneious	TrackerSNP	485	488	.	.	.	Name=C72S
+PfCRT	Geneious	primer_bind_reverse	3162	3190	.	-	.	Name=Pfcrt_Alpha_ET_R2
+PfCRT	Geneious	primer_bind_reverse	3166	3190	.	-	.	Name=Pfcrt_Alpha_ET_R1
+PfCRT	Geneious	primer_bind_reverse	3319	3342	.	-	.	Name=ET_pfcrt_ex4-13_R_v1
+PfCRT	Geneious	primer_bind_reverse	1489	1510	.	-	.	Name=ET_pfcrt_ex1-4_R_v2
+PfCRT	Geneious	primer_bind_reverse	1870	1891	.	-	.	Name=Pfcrt_Alpha_ET_R3a
+PfCRT	Geneious	primer_bind_reverse	2047	2068	.	-	.	Name=Pfcrt_Alpha_ET_R4a
+PfCRT	Geneious	primer_bind_reverse	1629	1649	.	-	.	Name=ET_pfcrt_ex1-4_R_v3
+PfCRT	Geneious	primer_bind_reverse	1855	1874	.	-	.	Name=Pfcrt_Alpha_ET_R6a
+PfCRT	Geneious	primer_bind_reverse	1871	1890	.	+	.	Name=Pfcrt_Alpha_ET_F7a
+PfCRT	Geneious	primer_bind_reverse	1445	1463	.	-	.	Name=ET_pfcrt_ex1-4_R_v1
+PfCRT	Geneious	primer_bind_reverse	2023	2041	.	-	.	Name=Pfcrt_Alpha_ET_R5a
+PfCRT	Geneious	Junction	1986	1987	.	.	.	Name=junction	3;ID=junction	3
+PfCRT	Geneious	Junction	1990	1991	.	.	.	Name=junction	3;ID=junction	3
+PfCRT	Geneious	Junction	1772	1773	.	.	.	Name=junction	2;ID=junction	2
+PfCRT	Geneious	Junction	2338	2339	.	.	.	Name=junction	2;ID=junction	2
+PfCRT	Geneious	Junction	2188	2189	.	.	.	Name=junction	4;ID=junction	4
+PfCRT	Geneious	Junction	2193	2194	.	.	.	Name=junction	4;ID=junction	4
+PfCRT	Geneious	Junction	1051	1052	.	.	.	Name=junction	1;ID=junction	1
+PfCRT	Geneious	Junction	1105	1106	.	.	.	Name=junction	1;ID=junction	1
+PfCRT	Geneious	Junction	1772	1773	.	.	.	Name=junction	4;ID=junction	4
+PfCRT	Geneious	Junction	2338	2339	.	.	.	Name=junction	4;ID=junction	4
+PfCRT	Geneious	Junction	1768	1769	.	.	.	Name=junction	3;ID=junction	3
+PfCRT	Geneious	Junction	2338	2339	.	.	.	Name=junction	3;ID=junction	3
+PfCRT	Geneious	Junction	1407	1408	.	.	.	Name=junction	2;ID=junction	2
+PfCRT	Geneious	Junction	1411	1412	.	.	.	Name=junction	2;ID=junction	2
+PfCRT	Geneious	Junction	1051	1052	.	.	.	Name=junction	1;ID=junction	1
+PfCRT	Geneious	Junction	1105	1106	.	.	.	Name=junction	1;ID=junction	1
+##sequence-region	PfMDR1%20	0	4260
+PfMDR1%20	Geneious	CDS	0	4260	.	+	0	Name=PfMDR1	CDS
+PfMDR1%20	Geneious	InterestMotif	49	4198	.	.	.	Name=Target
+PfMDR1%20	Geneious	STS	1875	2039	.	+	.	Name=MDR1
+PfMDR1%20	Geneious	gene	0	4260	.	+	.	Name=PfMDR1	gene
+PfMDR1%20	Geneious	mRNA	0	4260	.	+	.	Name=PfMDR1	mRNA
+PfMDR1%20	Geneious	primer_bind	29	49	.	+	.	Name=Pfmdr1_F_SC
+PfMDR1%20	Geneious	primer_bind_reverse	4203	4225	.	-	.	Name=Pfmdr1_R_SC
+PfMDR1%20	Geneious	source	0	4260	.	+	.	Name=source	Plasmodium	falciparum	3D7
+PfMDR1%20	Geneious	TrackerSNP	255	258	.	.	.	Name=N86Y
+PfMDR1%20	Geneious	TrackerSNP	549	552	.	.	.	Name=Y184F
+PfMDR1%20	Geneious	TrackerSNP	3099	3102	.	.	.	Name=S1034C
+PfMDR1%20	Geneious	TrackerSNP	3123	3126	.	.	.	Name=N1042D
+PfMDR1%20	Geneious	TrackerSNP	3735	3738	.	.	.	Name=D1246Y

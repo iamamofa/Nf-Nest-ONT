@@ -1,0 +1,5277 @@
+{
+    "Study": "xxxx",
+    "Number of samples": "xxxx",
+    "Date": "now",
+    "Sample": {
+        "SRR6463557.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "7.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:Y268Y": {
+                    "Ref": "Y",
+                    "Pos": "268",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:I258I": {
+                    "Ref": "I",
+                    "Pos": "258",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:D1246D": {
+                    "Ref": "D",
+                    "Pos": "1246",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N1042N": {
+                    "Ref": "N",
+                    "Pos": "1042",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:S1034S": {
+                    "Ref": "S",
+                    "Pos": "1034",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Y184Y": {
+                    "Ref": "Y",
+                    "Pos": "184",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N86N": {
+                    "Ref": "N",
+                    "Pos": "86",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C350C": {
+                    "Ref": "C",
+                    "Pos": "350",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C72C": {
+                    "Ref": "C",
+                    "Pos": "72",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:R371R": {
+                    "Ref": "R",
+                    "Pos": "371",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I356I": {
+                    "Ref": "I",
+                    "Pos": "356",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:G353G": {
+                    "Ref": "G",
+                    "Pos": "353",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:K76K": {
+                    "Ref": "K",
+                    "Pos": "76",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M343M": {
+                    "Ref": "M",
+                    "Pos": "343",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:H97H": {
+                    "Ref": "H",
+                    "Pos": "97",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M74M": {
+                    "Ref": "M",
+                    "Pos": "74",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:V73V": {
+                    "Ref": "V",
+                    "Pos": "73",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N75N": {
+                    "Ref": "N",
+                    "Pos": "75",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:T93T": {
+                    "Ref": "T",
+                    "Pos": "93",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N326N": {
+                    "Ref": "N",
+                    "Pos": "326",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:F145F": {
+                    "Ref": "F",
+                    "Pos": "145",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I218I": {
+                    "Ref": "I",
+                    "Pos": "218",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:A220A": {
+                    "Ref": "A",
+                    "Pos": "220",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:Q271Q": {
+                    "Ref": "Q",
+                    "Pos": "271",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R539R": {
+                    "Ref": "R",
+                    "Pos": "539",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R622R": {
+                    "Ref": "R",
+                    "Pos": "622",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:D584D": {
+                    "Ref": "D",
+                    "Pos": "584",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C580C": {
+                    "Ref": "C",
+                    "Pos": "580",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A578A": {
+                    "Ref": "A",
+                    "Pos": "578",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P574P": {
+                    "Ref": "P",
+                    "Pos": "574",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:V568V": {
+                    "Ref": "V",
+                    "Pos": "568",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R561R": {
+                    "Ref": "R",
+                    "Pos": "561",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P553P": {
+                    "Ref": "P",
+                    "Pos": "553",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A675A": {
+                    "Ref": "A",
+                    "Pos": "675",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:I543I": {
+                    "Ref": "I",
+                    "Pos": "543",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G538G": {
+                    "Ref": "G",
+                    "Pos": "538",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N458N": {
+                    "Ref": "N",
+                    "Pos": "458",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P441P": {
+                    "Ref": "P",
+                    "Pos": "441",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N537N": {
+                    "Ref": "N",
+                    "Pos": "537",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:F446F": {
+                    "Ref": "F",
+                    "Pos": "446",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G449G": {
+                    "Ref": "G",
+                    "Pos": "449",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:Y493Y": {
+                    "Ref": "Y",
+                    "Pos": "493",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C469C": {
+                    "Ref": "C",
+                    "Pos": "469",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:M476M": {
+                    "Ref": "M",
+                    "Pos": "476",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A481A": {
+                    "Ref": "A",
+                    "Pos": "481",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R515R": {
+                    "Ref": "R",
+                    "Pos": "515",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P527P": {
+                    "Ref": "P",
+                    "Pos": "527",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:S436S": {
+                    "Ref": "S",
+                    "Pos": "436",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A437G": {
+                    "Ref": "A",
+                    "Pos": "437",
+                    "Alt": "G",
+                    "Call": "1.959016393442623",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "DHPS:K540K": {
+                    "Ref": "K",
+                    "Pos": "540",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A581A": {
+                    "Ref": "A",
+                    "Pos": "581",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A613A": {
+                    "Ref": "A",
+                    "Pos": "613",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:A16A": {
+                    "Ref": "A",
+                    "Pos": "16",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:C59R": {
+                    "Ref": "C",
+                    "Pos": "59",
+                    "Alt": "R",
+                    "Call": "1.6858108108108107",
+                    "AF": "1.0",
+                    "Confidence": "39",
+                    "Status": ""
+                },
+                "DHFR:S108N": {
+                    "Ref": "S",
+                    "Pos": "108",
+                    "Alt": "N",
+                    "Call": "2.016",
+                    "AF": "1.0",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHFR:I164I": {
+                    "Ref": "I",
+                    "Pos": "164",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:N51I": {
+                    "Ref": "N",
+                    "Pos": "51",
+                    "Alt": "I",
+                    "Call": "1.4949832775919731",
+                    "AF": "1.0",
+                    "Confidence": "38",
+                    "Status": ""
+                }
+            }
+        },
+        "SRR6463549.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "4",
+            "SampleID": "9.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:Y268Y": {
+                    "Ref": "Y",
+                    "Pos": "268",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:I258I": {
+                    "Ref": "I",
+                    "Pos": "258",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:D1246D": {
+                    "Ref": "D",
+                    "Pos": "1246",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N1042N": {
+                    "Ref": "N",
+                    "Pos": "1042",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:S1034S": {
+                    "Ref": "S",
+                    "Pos": "1034",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Y184F": {
+                    "Ref": "Y",
+                    "Pos": "184",
+                    "Alt": "F",
+                    "Call": "1.1282051282051282",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "PfMDR1:N86N": {
+                    "Ref": "N",
+                    "Pos": "86",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C350C": {
+                    "Ref": "C",
+                    "Pos": "350",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C72C": {
+                    "Ref": "C",
+                    "Pos": "72",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:R371R": {
+                    "Ref": "R",
+                    "Pos": "371",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I356I": {
+                    "Ref": "I",
+                    "Pos": "356",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:G353G": {
+                    "Ref": "G",
+                    "Pos": "353",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:K76K": {
+                    "Ref": "K",
+                    "Pos": "76",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M343M": {
+                    "Ref": "M",
+                    "Pos": "343",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:H97H": {
+                    "Ref": "H",
+                    "Pos": "97",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M74M": {
+                    "Ref": "M",
+                    "Pos": "74",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:V73V": {
+                    "Ref": "V",
+                    "Pos": "73",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N75N": {
+                    "Ref": "N",
+                    "Pos": "75",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:T93T": {
+                    "Ref": "T",
+                    "Pos": "93",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N326N": {
+                    "Ref": "N",
+                    "Pos": "326",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:F145F": {
+                    "Ref": "F",
+                    "Pos": "145",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I218I": {
+                    "Ref": "I",
+                    "Pos": "218",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:A220A": {
+                    "Ref": "A",
+                    "Pos": "220",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:Q271Q": {
+                    "Ref": "Q",
+                    "Pos": "271",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R539R": {
+                    "Ref": "R",
+                    "Pos": "539",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R622R": {
+                    "Ref": "R",
+                    "Pos": "622",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:D584D": {
+                    "Ref": "D",
+                    "Pos": "584",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C580C": {
+                    "Ref": "C",
+                    "Pos": "580",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A578A": {
+                    "Ref": "A",
+                    "Pos": "578",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P574P": {
+                    "Ref": "P",
+                    "Pos": "574",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:V568V": {
+                    "Ref": "V",
+                    "Pos": "568",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R561R": {
+                    "Ref": "R",
+                    "Pos": "561",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P553P": {
+                    "Ref": "P",
+                    "Pos": "553",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A675A": {
+                    "Ref": "A",
+                    "Pos": "675",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:I543I": {
+                    "Ref": "I",
+                    "Pos": "543",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G538G": {
+                    "Ref": "G",
+                    "Pos": "538",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N458N": {
+                    "Ref": "N",
+                    "Pos": "458",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P441P": {
+                    "Ref": "P",
+                    "Pos": "441",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N537N": {
+                    "Ref": "N",
+                    "Pos": "537",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:F446F": {
+                    "Ref": "F",
+                    "Pos": "446",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G449G": {
+                    "Ref": "G",
+                    "Pos": "449",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:Y493Y": {
+                    "Ref": "Y",
+                    "Pos": "493",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C469C": {
+                    "Ref": "C",
+                    "Pos": "469",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:M476M": {
+                    "Ref": "M",
+                    "Pos": "476",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A481A": {
+                    "Ref": "A",
+                    "Pos": "481",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R515R": {
+                    "Ref": "R",
+                    "Pos": "515",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P527P": {
+                    "Ref": "P",
+                    "Pos": "527",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:S436S": {
+                    "Ref": "S",
+                    "Pos": "436",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A437G": {
+                    "Ref": "A",
+                    "Pos": "437",
+                    "Alt": "G",
+                    "Call": "1.3831775700934579",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "DHPS:K540K": {
+                    "Ref": "K",
+                    "Pos": "540",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A581A": {
+                    "Ref": "A",
+                    "Pos": "581",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A613A": {
+                    "Ref": "A",
+                    "Pos": "613",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:A16A": {
+                    "Ref": "A",
+                    "Pos": "16",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:C59R": {
+                    "Ref": "C",
+                    "Pos": "59",
+                    "Alt": "R",
+                    "Call": "1.1547619047619047",
+                    "AF": "1.0",
+                    "Confidence": "40",
+                    "Status": ""
+                },
+                "DHFR:S108N": {
+                    "Ref": "S",
+                    "Pos": "108",
+                    "Alt": "N",
+                    "Call": "1.592",
+                    "AF": "1.0",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHFR:I164I": {
+                    "Ref": "I",
+                    "Pos": "164",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:N51I": {
+                    "Ref": "N",
+                    "Pos": "51",
+                    "Alt": "I",
+                    "Call": "1.1659192825112108",
+                    "AF": "1.0",
+                    "Confidence": "40",
+                    "Status": ""
+                }
+            }
+        },
+        "SRR6463552.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "2.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:Y268Y": {
+                    "Ref": "Y",
+                    "Pos": "268",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:I258I": {
+                    "Ref": "I",
+                    "Pos": "258",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:D1246D": {
+                    "Ref": "D",
+                    "Pos": "1246",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N1042N": {
+                    "Ref": "N",
+                    "Pos": "1042",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:S1034S": {
+                    "Ref": "S",
+                    "Pos": "1034",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Y184F": {
+                    "Ref": "Y",
+                    "Pos": "184",
+                    "Alt": "F",
+                    "Call": "1.0185185185185186",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "PfMDR1:N86N": {
+                    "Ref": "N",
+                    "Pos": "86",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C350C": {
+                    "Ref": "C",
+                    "Pos": "350",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C72C": {
+                    "Ref": "C",
+                    "Pos": "72",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:R371R": {
+                    "Ref": "R",
+                    "Pos": "371",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I356I": {
+                    "Ref": "I",
+                    "Pos": "356",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:G353G": {
+                    "Ref": "G",
+                    "Pos": "353",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:K76K": {
+                    "Ref": "K",
+                    "Pos": "76",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M343M": {
+                    "Ref": "M",
+                    "Pos": "343",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:H97H": {
+                    "Ref": "H",
+                    "Pos": "97",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M74M": {
+                    "Ref": "M",
+                    "Pos": "74",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:V73V": {
+                    "Ref": "V",
+                    "Pos": "73",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N75N": {
+                    "Ref": "N",
+                    "Pos": "75",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:T93T": {
+                    "Ref": "T",
+                    "Pos": "93",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N326N": {
+                    "Ref": "N",
+                    "Pos": "326",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:F145F": {
+                    "Ref": "F",
+                    "Pos": "145",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I218I": {
+                    "Ref": "I",
+                    "Pos": "218",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:A220A": {
+                    "Ref": "A",
+                    "Pos": "220",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:Q271Q": {
+                    "Ref": "Q",
+                    "Pos": "271",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R539R": {
+                    "Ref": "R",
+                    "Pos": "539",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R622R": {
+                    "Ref": "R",
+                    "Pos": "622",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:D584D": {
+                    "Ref": "D",
+                    "Pos": "584",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C580C": {
+                    "Ref": "C",
+                    "Pos": "580",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A578A": {
+                    "Ref": "A",
+                    "Pos": "578",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P574P": {
+                    "Ref": "P",
+                    "Pos": "574",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:V568V": {
+                    "Ref": "V",
+                    "Pos": "568",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R561R": {
+                    "Ref": "R",
+                    "Pos": "561",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P553P": {
+                    "Ref": "P",
+                    "Pos": "553",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A675A": {
+                    "Ref": "A",
+                    "Pos": "675",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:I543I": {
+                    "Ref": "I",
+                    "Pos": "543",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G538G": {
+                    "Ref": "G",
+                    "Pos": "538",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N458N": {
+                    "Ref": "N",
+                    "Pos": "458",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P441P": {
+                    "Ref": "P",
+                    "Pos": "441",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N537N": {
+                    "Ref": "N",
+                    "Pos": "537",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:F446F": {
+                    "Ref": "F",
+                    "Pos": "446",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G449G": {
+                    "Ref": "G",
+                    "Pos": "449",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:Y493Y": {
+                    "Ref": "Y",
+                    "Pos": "493",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C469C": {
+                    "Ref": "C",
+                    "Pos": "469",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:M476M": {
+                    "Ref": "M",
+                    "Pos": "476",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A481A": {
+                    "Ref": "A",
+                    "Pos": "481",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R515R": {
+                    "Ref": "R",
+                    "Pos": "515",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P527P": {
+                    "Ref": "P",
+                    "Pos": "527",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:S436A": {
+                    "Ref": "S",
+                    "Pos": "436",
+                    "Alt": "A",
+                    "Call": "0.8434343434343434",
+                    "AF": "0.5721649484536082",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHPS:A437G": {
+                    "Ref": "A",
+                    "Pos": "437",
+                    "Alt": "G",
+                    "Call": "1.4611650485436893",
+                    "AF": "1.0",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHPS:K540K": {
+                    "Ref": "K",
+                    "Pos": "540",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A581A": {
+                    "Ref": "A",
+                    "Pos": "581",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A613A": {
+                    "Ref": "A",
+                    "Pos": "613",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:A16A": {
+                    "Ref": "A",
+                    "Pos": "16",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:C59C": {
+                    "Ref": "C",
+                    "Pos": "59",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:S108N": {
+                    "Ref": "S",
+                    "Pos": "108",
+                    "Alt": "N",
+                    "Call": "2.2890995260663507",
+                    "AF": "1.0",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHFR:I164I": {
+                    "Ref": "I",
+                    "Pos": "164",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:N51I": {
+                    "Ref": "N",
+                    "Pos": "51",
+                    "Alt": "I",
+                    "Call": "1.2958801498127341",
+                    "AF": "1.0",
+                    "Confidence": "36",
+                    "Status": ""
+                }
+            }
+        },
+        "SRR6463553.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "3.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:Y268Y": {
+                    "Ref": "Y",
+                    "Pos": "268",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:I258I": {
+                    "Ref": "I",
+                    "Pos": "258",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:D1246D": {
+                    "Ref": "D",
+                    "Pos": "1246",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N1042N": {
+                    "Ref": "N",
+                    "Pos": "1042",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:S1034S": {
+                    "Ref": "S",
+                    "Pos": "1034",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Y184Y": {
+                    "Ref": "Y",
+                    "Pos": "184",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N86N": {
+                    "Ref": "N",
+                    "Pos": "86",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C350C": {
+                    "Ref": "C",
+                    "Pos": "350",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C72C": {
+                    "Ref": "C",
+                    "Pos": "72",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:R371R": {
+                    "Ref": "R",
+                    "Pos": "371",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I356I": {
+                    "Ref": "I",
+                    "Pos": "356",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:G353G": {
+                    "Ref": "G",
+                    "Pos": "353",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:K76K": {
+                    "Ref": "K",
+                    "Pos": "76",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M343M": {
+                    "Ref": "M",
+                    "Pos": "343",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:H97H": {
+                    "Ref": "H",
+                    "Pos": "97",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M74M": {
+                    "Ref": "M",
+                    "Pos": "74",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:V73V": {
+                    "Ref": "V",
+                    "Pos": "73",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N75N": {
+                    "Ref": "N",
+                    "Pos": "75",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:T93T": {
+                    "Ref": "T",
+                    "Pos": "93",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N326N": {
+                    "Ref": "N",
+                    "Pos": "326",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:F145F": {
+                    "Ref": "F",
+                    "Pos": "145",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I218I": {
+                    "Ref": "I",
+                    "Pos": "218",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:A220A": {
+                    "Ref": "A",
+                    "Pos": "220",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:Q271Q": {
+                    "Ref": "Q",
+                    "Pos": "271",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R539R": {
+                    "Ref": "R",
+                    "Pos": "539",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R622R": {
+                    "Ref": "R",
+                    "Pos": "622",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:D584D": {
+                    "Ref": "D",
+                    "Pos": "584",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C580C": {
+                    "Ref": "C",
+                    "Pos": "580",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A578A": {
+                    "Ref": "A",
+                    "Pos": "578",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P574P": {
+                    "Ref": "P",
+                    "Pos": "574",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:V568V": {
+                    "Ref": "V",
+                    "Pos": "568",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R561R": {
+                    "Ref": "R",
+                    "Pos": "561",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P553P": {
+                    "Ref": "P",
+                    "Pos": "553",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A675A": {
+                    "Ref": "A",
+                    "Pos": "675",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:I543I": {
+                    "Ref": "I",
+                    "Pos": "543",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G538G": {
+                    "Ref": "G",
+                    "Pos": "538",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N458N": {
+                    "Ref": "N",
+                    "Pos": "458",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P441P": {
+                    "Ref": "P",
+                    "Pos": "441",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N537N": {
+                    "Ref": "N",
+                    "Pos": "537",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:F446F": {
+                    "Ref": "F",
+                    "Pos": "446",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G449G": {
+                    "Ref": "G",
+                    "Pos": "449",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A481A": {
+                    "Ref": "A",
+                    "Pos": "481",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C469C": {
+                    "Ref": "C",
+                    "Pos": "469",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:M476M": {
+                    "Ref": "M",
+                    "Pos": "476",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:Y493Y": {
+                    "Ref": "Y",
+                    "Pos": "493",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R515R": {
+                    "Ref": "R",
+                    "Pos": "515",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P527P": {
+                    "Ref": "P",
+                    "Pos": "527",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:S436S": {
+                    "Ref": "S",
+                    "Pos": "436",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A437A": {
+                    "Ref": "A",
+                    "Pos": "437",
+                    "Alt": "A",
+                    "Call": "2.055084745762712",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "DHPS:K540K": {
+                    "Ref": "K",
+                    "Pos": "540",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A581A": {
+                    "Ref": "A",
+                    "Pos": "581",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A613A": {
+                    "Ref": "A",
+                    "Pos": "613",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:A16A": {
+                    "Ref": "A",
+                    "Pos": "16",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:C59R": {
+                    "Ref": "C",
+                    "Pos": "59",
+                    "Alt": "R",
+                    "Call": "1.1466165413533835",
+                    "AF": "1.0",
+                    "Confidence": "40",
+                    "Status": ""
+                },
+                "DHFR:S108N": {
+                    "Ref": "S",
+                    "Pos": "108",
+                    "Alt": "N",
+                    "Call": "1.5638766519823788",
+                    "AF": "1.0",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHFR:I164I": {
+                    "Ref": "I",
+                    "Pos": "164",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:N51N": {
+                    "Ref": "N",
+                    "Pos": "51",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                }
+            }
+        },
+        "SRR6463548.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "4",
+            "SampleID": "8.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:Y268Y": {
+                    "Ref": "Y",
+                    "Pos": "268",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:I258I": {
+                    "Ref": "I",
+                    "Pos": "258",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:D1246D": {
+                    "Ref": "D",
+                    "Pos": "1246",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N1042N": {
+                    "Ref": "N",
+                    "Pos": "1042",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:S1034S": {
+                    "Ref": "S",
+                    "Pos": "1034",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Y184F": {
+                    "Ref": "Y",
+                    "Pos": "184",
+                    "Alt": "F",
+                    "Call": "0.7272727272727273",
+                    "AF": "0.6538461538461539",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "PfMDR1:N86Y": {
+                    "Ref": "N",
+                    "Pos": "86",
+                    "Alt": "Y",
+                    "Call": "0.7407407407407407",
+                    "AF": "0.5769230769230769",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "PfCRT:C350C": {
+                    "Ref": "C",
+                    "Pos": "350",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C72C": {
+                    "Ref": "C",
+                    "Pos": "72",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:R371R": {
+                    "Ref": "R",
+                    "Pos": "371",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I356I": {
+                    "Ref": "I",
+                    "Pos": "356",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:G353G": {
+                    "Ref": "G",
+                    "Pos": "353",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:K76K": {
+                    "Ref": "K",
+                    "Pos": "76",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M343M": {
+                    "Ref": "M",
+                    "Pos": "343",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:H97H": {
+                    "Ref": "H",
+                    "Pos": "97",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M74M": {
+                    "Ref": "M",
+                    "Pos": "74",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:V73V": {
+                    "Ref": "V",
+                    "Pos": "73",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N75N": {
+                    "Ref": "N",
+                    "Pos": "75",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:T93T": {
+                    "Ref": "T",
+                    "Pos": "93",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N326N": {
+                    "Ref": "N",
+                    "Pos": "326",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:F145F": {
+                    "Ref": "F",
+                    "Pos": "145",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I218I": {
+                    "Ref": "I",
+                    "Pos": "218",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:A220A": {
+                    "Ref": "A",
+                    "Pos": "220",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:Q271Q": {
+                    "Ref": "Q",
+                    "Pos": "271",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R539R": {
+                    "Ref": "R",
+                    "Pos": "539",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R622R": {
+                    "Ref": "R",
+                    "Pos": "622",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:D584D": {
+                    "Ref": "D",
+                    "Pos": "584",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C580C": {
+                    "Ref": "C",
+                    "Pos": "580",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A578A": {
+                    "Ref": "A",
+                    "Pos": "578",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P574P": {
+                    "Ref": "P",
+                    "Pos": "574",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:V568V": {
+                    "Ref": "V",
+                    "Pos": "568",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R561R": {
+                    "Ref": "R",
+                    "Pos": "561",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P553P": {
+                    "Ref": "P",
+                    "Pos": "553",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A675A": {
+                    "Ref": "A",
+                    "Pos": "675",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:I543I": {
+                    "Ref": "I",
+                    "Pos": "543",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G538G": {
+                    "Ref": "G",
+                    "Pos": "538",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N458N": {
+                    "Ref": "N",
+                    "Pos": "458",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P441P": {
+                    "Ref": "P",
+                    "Pos": "441",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N537N": {
+                    "Ref": "N",
+                    "Pos": "537",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:F446F": {
+                    "Ref": "F",
+                    "Pos": "446",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G449G": {
+                    "Ref": "G",
+                    "Pos": "449",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:Y493Y": {
+                    "Ref": "Y",
+                    "Pos": "493",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C469C": {
+                    "Ref": "C",
+                    "Pos": "469",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:M476M": {
+                    "Ref": "M",
+                    "Pos": "476",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A481A": {
+                    "Ref": "A",
+                    "Pos": "481",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R515R": {
+                    "Ref": "R",
+                    "Pos": "515",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P527P": {
+                    "Ref": "P",
+                    "Pos": "527",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:S436A": {
+                    "Ref": "S",
+                    "Pos": "436",
+                    "Alt": "A",
+                    "Call": "0.5727272727272728",
+                    "AF": "0.47706422018348627",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "DHPS:A437G": {
+                    "Ref": "A",
+                    "Pos": "437",
+                    "Alt": "G",
+                    "Call": "1.2692307692307692",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "DHPS:K540K": {
+                    "Ref": "K",
+                    "Pos": "540",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A581A": {
+                    "Ref": "A",
+                    "Pos": "581",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A613A": {
+                    "Ref": "A",
+                    "Pos": "613",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:A16A": {
+                    "Ref": "A",
+                    "Pos": "16",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:C59R": {
+                    "Ref": "C",
+                    "Pos": "59",
+                    "Alt": "R",
+                    "Call": "1.0330578512396693",
+                    "AF": "1.0",
+                    "Confidence": "39",
+                    "Status": ""
+                },
+                "DHFR:S108N": {
+                    "Ref": "S",
+                    "Pos": "108",
+                    "Alt": "N",
+                    "Call": "1.0535714285714286",
+                    "AF": "1.0",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHFR:I164I": {
+                    "Ref": "I",
+                    "Pos": "164",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:N51I": {
+                    "Ref": "N",
+                    "Pos": "51",
+                    "Alt": "I",
+                    "Call": "1.0098039215686274",
+                    "AF": "1.0",
+                    "Confidence": "39",
+                    "Status": ""
+                }
+            }
+        },
+        "SRR6463556.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "6.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:Y268Y": {
+                    "Ref": "Y",
+                    "Pos": "268",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:I258I": {
+                    "Ref": "I",
+                    "Pos": "258",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:D1246D": {
+                    "Ref": "D",
+                    "Pos": "1246",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N1042N": {
+                    "Ref": "N",
+                    "Pos": "1042",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:S1034S": {
+                    "Ref": "S",
+                    "Pos": "1034",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Y184Y": {
+                    "Ref": "Y",
+                    "Pos": "184",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N86N": {
+                    "Ref": "N",
+                    "Pos": "86",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C350C": {
+                    "Ref": "C",
+                    "Pos": "350",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C72C": {
+                    "Ref": "C",
+                    "Pos": "72",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:R371R": {
+                    "Ref": "R",
+                    "Pos": "371",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I356I": {
+                    "Ref": "I",
+                    "Pos": "356",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:G353G": {
+                    "Ref": "G",
+                    "Pos": "353",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:K76K": {
+                    "Ref": "K",
+                    "Pos": "76",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M343M": {
+                    "Ref": "M",
+                    "Pos": "343",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:H97H": {
+                    "Ref": "H",
+                    "Pos": "97",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M74M": {
+                    "Ref": "M",
+                    "Pos": "74",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:V73V": {
+                    "Ref": "V",
+                    "Pos": "73",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N75N": {
+                    "Ref": "N",
+                    "Pos": "75",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:T93T": {
+                    "Ref": "T",
+                    "Pos": "93",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N326N": {
+                    "Ref": "N",
+                    "Pos": "326",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:F145F": {
+                    "Ref": "F",
+                    "Pos": "145",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I218I": {
+                    "Ref": "I",
+                    "Pos": "218",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:A220A": {
+                    "Ref": "A",
+                    "Pos": "220",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:Q271Q": {
+                    "Ref": "Q",
+                    "Pos": "271",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R539R": {
+                    "Ref": "R",
+                    "Pos": "539",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R622R": {
+                    "Ref": "R",
+                    "Pos": "622",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:D584D": {
+                    "Ref": "D",
+                    "Pos": "584",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C580C": {
+                    "Ref": "C",
+                    "Pos": "580",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A578A": {
+                    "Ref": "A",
+                    "Pos": "578",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P574P": {
+                    "Ref": "P",
+                    "Pos": "574",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:V568V": {
+                    "Ref": "V",
+                    "Pos": "568",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R561R": {
+                    "Ref": "R",
+                    "Pos": "561",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P553P": {
+                    "Ref": "P",
+                    "Pos": "553",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A675A": {
+                    "Ref": "A",
+                    "Pos": "675",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:I543I": {
+                    "Ref": "I",
+                    "Pos": "543",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G538G": {
+                    "Ref": "G",
+                    "Pos": "538",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N458N": {
+                    "Ref": "N",
+                    "Pos": "458",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P441P": {
+                    "Ref": "P",
+                    "Pos": "441",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N537N": {
+                    "Ref": "N",
+                    "Pos": "537",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:F446F": {
+                    "Ref": "F",
+                    "Pos": "446",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G449G": {
+                    "Ref": "G",
+                    "Pos": "449",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:Y493Y": {
+                    "Ref": "Y",
+                    "Pos": "493",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C469C": {
+                    "Ref": "C",
+                    "Pos": "469",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:M476M": {
+                    "Ref": "M",
+                    "Pos": "476",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A481A": {
+                    "Ref": "A",
+                    "Pos": "481",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R515R": {
+                    "Ref": "R",
+                    "Pos": "515",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P527P": {
+                    "Ref": "P",
+                    "Pos": "527",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:S436S": {
+                    "Ref": "S",
+                    "Pos": "436",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A437G": {
+                    "Ref": "A",
+                    "Pos": "437",
+                    "Alt": "G",
+                    "Call": "1.9282511210762332",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "DHPS:K540E": {
+                    "Ref": "K",
+                    "Pos": "540",
+                    "Alt": "E",
+                    "Call": "1.0276497695852536",
+                    "AF": "1.0",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHPS:A581A": {
+                    "Ref": "A",
+                    "Pos": "581",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A613A": {
+                    "Ref": "A",
+                    "Pos": "613",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:A16A": {
+                    "Ref": "A",
+                    "Pos": "16",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:C59R": {
+                    "Ref": "C",
+                    "Pos": "59",
+                    "Alt": "R",
+                    "Call": "1.4",
+                    "AF": "1.0",
+                    "Confidence": "38",
+                    "Status": ""
+                },
+                "DHFR:S108N": {
+                    "Ref": "S",
+                    "Pos": "108",
+                    "Alt": "N",
+                    "Call": "1.685589519650655",
+                    "AF": "1.0",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHFR:I164I": {
+                    "Ref": "I",
+                    "Pos": "164",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:N51I": {
+                    "Ref": "N",
+                    "Pos": "51",
+                    "Alt": "I",
+                    "Call": "1.2727272727272727",
+                    "AF": "1.0",
+                    "Confidence": "37",
+                    "Status": ""
+                }
+            }
+        },
+        "SRR6463554.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "4.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:Y268Y": {
+                    "Ref": "Y",
+                    "Pos": "268",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:I258I": {
+                    "Ref": "I",
+                    "Pos": "258",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:D1246D": {
+                    "Ref": "D",
+                    "Pos": "1246",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N1042N": {
+                    "Ref": "N",
+                    "Pos": "1042",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:S1034S": {
+                    "Ref": "S",
+                    "Pos": "1034",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Y184Y": {
+                    "Ref": "Y",
+                    "Pos": "184",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N86N": {
+                    "Ref": "N",
+                    "Pos": "86",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C350C": {
+                    "Ref": "C",
+                    "Pos": "350",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C72C": {
+                    "Ref": "C",
+                    "Pos": "72",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:R371R": {
+                    "Ref": "R",
+                    "Pos": "371",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I356I": {
+                    "Ref": "I",
+                    "Pos": "356",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:G353G": {
+                    "Ref": "G",
+                    "Pos": "353",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:K76K": {
+                    "Ref": "K",
+                    "Pos": "76",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M343M": {
+                    "Ref": "M",
+                    "Pos": "343",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:H97H": {
+                    "Ref": "H",
+                    "Pos": "97",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M74M": {
+                    "Ref": "M",
+                    "Pos": "74",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:V73V": {
+                    "Ref": "V",
+                    "Pos": "73",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N75N": {
+                    "Ref": "N",
+                    "Pos": "75",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:T93T": {
+                    "Ref": "T",
+                    "Pos": "93",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N326N": {
+                    "Ref": "N",
+                    "Pos": "326",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:F145F": {
+                    "Ref": "F",
+                    "Pos": "145",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I218I": {
+                    "Ref": "I",
+                    "Pos": "218",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:A220A": {
+                    "Ref": "A",
+                    "Pos": "220",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:Q271Q": {
+                    "Ref": "Q",
+                    "Pos": "271",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R539R": {
+                    "Ref": "R",
+                    "Pos": "539",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R622R": {
+                    "Ref": "R",
+                    "Pos": "622",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:D584D": {
+                    "Ref": "D",
+                    "Pos": "584",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C580C": {
+                    "Ref": "C",
+                    "Pos": "580",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A578A": {
+                    "Ref": "A",
+                    "Pos": "578",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P574P": {
+                    "Ref": "P",
+                    "Pos": "574",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:V568V": {
+                    "Ref": "V",
+                    "Pos": "568",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R561R": {
+                    "Ref": "R",
+                    "Pos": "561",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P553P": {
+                    "Ref": "P",
+                    "Pos": "553",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A675A": {
+                    "Ref": "A",
+                    "Pos": "675",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:I543I": {
+                    "Ref": "I",
+                    "Pos": "543",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G538G": {
+                    "Ref": "G",
+                    "Pos": "538",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N458N": {
+                    "Ref": "N",
+                    "Pos": "458",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P441P": {
+                    "Ref": "P",
+                    "Pos": "441",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N537N": {
+                    "Ref": "N",
+                    "Pos": "537",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:F446F": {
+                    "Ref": "F",
+                    "Pos": "446",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G449G": {
+                    "Ref": "G",
+                    "Pos": "449",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A481A": {
+                    "Ref": "A",
+                    "Pos": "481",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C469C": {
+                    "Ref": "C",
+                    "Pos": "469",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:M476M": {
+                    "Ref": "M",
+                    "Pos": "476",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:Y493Y": {
+                    "Ref": "Y",
+                    "Pos": "493",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R515R": {
+                    "Ref": "R",
+                    "Pos": "515",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P527P": {
+                    "Ref": "P",
+                    "Pos": "527",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:S436S": {
+                    "Ref": "S",
+                    "Pos": "436",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A437A": {
+                    "Ref": "A",
+                    "Pos": "437",
+                    "Alt": "A",
+                    "Call": "2.344",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "DHPS:K540K": {
+                    "Ref": "K",
+                    "Pos": "540",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A581A": {
+                    "Ref": "A",
+                    "Pos": "581",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A613A": {
+                    "Ref": "A",
+                    "Pos": "613",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:A16A": {
+                    "Ref": "A",
+                    "Pos": "16",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:C59R": {
+                    "Ref": "C",
+                    "Pos": "59",
+                    "Alt": "R",
+                    "Call": "1.6324503311258278",
+                    "AF": "1.0",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHFR:S108N": {
+                    "Ref": "S",
+                    "Pos": "108",
+                    "Alt": "N",
+                    "Call": "2.1434426229508197",
+                    "AF": "1.0",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHFR:I164I": {
+                    "Ref": "I",
+                    "Pos": "164",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:N51N": {
+                    "Ref": "N",
+                    "Pos": "51",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                }
+            }
+        },
+        "SRR6463550.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "0.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:Y268Y": {
+                    "Ref": "Y",
+                    "Pos": "268",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:I258I": {
+                    "Ref": "I",
+                    "Pos": "258",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:D1246D": {
+                    "Ref": "D",
+                    "Pos": "1246",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N1042N": {
+                    "Ref": "N",
+                    "Pos": "1042",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:S1034S": {
+                    "Ref": "S",
+                    "Pos": "1034",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Y184F": {
+                    "Ref": "Y",
+                    "Pos": "184",
+                    "Alt": "F",
+                    "Call": "1.1263157894736842",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "PfMDR1:N86Y": {
+                    "Ref": "N",
+                    "Pos": "86",
+                    "Alt": "Y",
+                    "Call": "1.0845070422535212",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "PfCRT:C350C": {
+                    "Ref": "C",
+                    "Pos": "350",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C72C": {
+                    "Ref": "C",
+                    "Pos": "72",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:R371R": {
+                    "Ref": "R",
+                    "Pos": "371",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I356I": {
+                    "Ref": "I",
+                    "Pos": "356",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:G353G": {
+                    "Ref": "G",
+                    "Pos": "353",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:K76K": {
+                    "Ref": "K",
+                    "Pos": "76",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M343M": {
+                    "Ref": "M",
+                    "Pos": "343",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:H97H": {
+                    "Ref": "H",
+                    "Pos": "97",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M74M": {
+                    "Ref": "M",
+                    "Pos": "74",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:V73V": {
+                    "Ref": "V",
+                    "Pos": "73",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N75N": {
+                    "Ref": "N",
+                    "Pos": "75",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:T93T": {
+                    "Ref": "T",
+                    "Pos": "93",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N326N": {
+                    "Ref": "N",
+                    "Pos": "326",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:F145F": {
+                    "Ref": "F",
+                    "Pos": "145",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I218I": {
+                    "Ref": "I",
+                    "Pos": "218",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:A220A": {
+                    "Ref": "A",
+                    "Pos": "220",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:Q271Q": {
+                    "Ref": "Q",
+                    "Pos": "271",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R539R": {
+                    "Ref": "R",
+                    "Pos": "539",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R622R": {
+                    "Ref": "R",
+                    "Pos": "622",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:D584D": {
+                    "Ref": "D",
+                    "Pos": "584",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C580C": {
+                    "Ref": "C",
+                    "Pos": "580",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A578A": {
+                    "Ref": "A",
+                    "Pos": "578",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P574P": {
+                    "Ref": "P",
+                    "Pos": "574",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:V568V": {
+                    "Ref": "V",
+                    "Pos": "568",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R561R": {
+                    "Ref": "R",
+                    "Pos": "561",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P553P": {
+                    "Ref": "P",
+                    "Pos": "553",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A675A": {
+                    "Ref": "A",
+                    "Pos": "675",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:I543I": {
+                    "Ref": "I",
+                    "Pos": "543",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G538G": {
+                    "Ref": "G",
+                    "Pos": "538",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N458N": {
+                    "Ref": "N",
+                    "Pos": "458",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P441P": {
+                    "Ref": "P",
+                    "Pos": "441",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N537N": {
+                    "Ref": "N",
+                    "Pos": "537",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:F446F": {
+                    "Ref": "F",
+                    "Pos": "446",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G449G": {
+                    "Ref": "G",
+                    "Pos": "449",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:Y493Y": {
+                    "Ref": "Y",
+                    "Pos": "493",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C469C": {
+                    "Ref": "C",
+                    "Pos": "469",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:M476M": {
+                    "Ref": "M",
+                    "Pos": "476",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A481A": {
+                    "Ref": "A",
+                    "Pos": "481",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R515R": {
+                    "Ref": "R",
+                    "Pos": "515",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P527P": {
+                    "Ref": "P",
+                    "Pos": "527",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:S436S": {
+                    "Ref": "S",
+                    "Pos": "436",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A437G": {
+                    "Ref": "A",
+                    "Pos": "437",
+                    "Alt": "G",
+                    "Call": "1.3144654088050314",
+                    "AF": "1.0",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHPS:K540K": {
+                    "Ref": "K",
+                    "Pos": "540",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A581A": {
+                    "Ref": "A",
+                    "Pos": "581",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A613A": {
+                    "Ref": "A",
+                    "Pos": "613",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:A16A": {
+                    "Ref": "A",
+                    "Pos": "16",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:C59R": {
+                    "Ref": "C",
+                    "Pos": "59",
+                    "Alt": "R",
+                    "Call": "1.125",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "DHFR:S108N": {
+                    "Ref": "S",
+                    "Pos": "108",
+                    "Alt": "N",
+                    "Call": "1.1176470588235294",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "DHFR:I164K": {
+                    "Ref": "I",
+                    "Pos": "164",
+                    "Alt": "K",
+                    "Call": "0.14285714285714285",
+                    "AF": "0.14285714285714285",
+                    "Confidence": "42",
+                    "Status": "QD is too low"
+                },
+                "DHFR:N51I": {
+                    "Ref": "N",
+                    "Pos": "51",
+                    "Alt": "I",
+                    "Call": "1.0869565217391304",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                }
+            }
+        },
+        "SRR6463555.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "5.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:Y268Y": {
+                    "Ref": "Y",
+                    "Pos": "268",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:I258I": {
+                    "Ref": "I",
+                    "Pos": "258",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:D1246D": {
+                    "Ref": "D",
+                    "Pos": "1246",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N1042N": {
+                    "Ref": "N",
+                    "Pos": "1042",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:S1034S": {
+                    "Ref": "S",
+                    "Pos": "1034",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Y184Y": {
+                    "Ref": "Y",
+                    "Pos": "184",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N86N": {
+                    "Ref": "N",
+                    "Pos": "86",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C350C": {
+                    "Ref": "C",
+                    "Pos": "350",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C72C": {
+                    "Ref": "C",
+                    "Pos": "72",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:R371R": {
+                    "Ref": "R",
+                    "Pos": "371",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I356I": {
+                    "Ref": "I",
+                    "Pos": "356",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:G353G": {
+                    "Ref": "G",
+                    "Pos": "353",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:K76K": {
+                    "Ref": "K",
+                    "Pos": "76",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M343M": {
+                    "Ref": "M",
+                    "Pos": "343",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:H97H": {
+                    "Ref": "H",
+                    "Pos": "97",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M74M": {
+                    "Ref": "M",
+                    "Pos": "74",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:V73V": {
+                    "Ref": "V",
+                    "Pos": "73",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N75N": {
+                    "Ref": "N",
+                    "Pos": "75",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:T93T": {
+                    "Ref": "T",
+                    "Pos": "93",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N326N": {
+                    "Ref": "N",
+                    "Pos": "326",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:F145F": {
+                    "Ref": "F",
+                    "Pos": "145",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I218I": {
+                    "Ref": "I",
+                    "Pos": "218",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:A220A": {
+                    "Ref": "A",
+                    "Pos": "220",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:Q271Q": {
+                    "Ref": "Q",
+                    "Pos": "271",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R539R": {
+                    "Ref": "R",
+                    "Pos": "539",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R622R": {
+                    "Ref": "R",
+                    "Pos": "622",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:D584D": {
+                    "Ref": "D",
+                    "Pos": "584",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C580C": {
+                    "Ref": "C",
+                    "Pos": "580",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A578A": {
+                    "Ref": "A",
+                    "Pos": "578",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P574P": {
+                    "Ref": "P",
+                    "Pos": "574",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:V568V": {
+                    "Ref": "V",
+                    "Pos": "568",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R561R": {
+                    "Ref": "R",
+                    "Pos": "561",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P553P": {
+                    "Ref": "P",
+                    "Pos": "553",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A675A": {
+                    "Ref": "A",
+                    "Pos": "675",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:I543I": {
+                    "Ref": "I",
+                    "Pos": "543",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G538G": {
+                    "Ref": "G",
+                    "Pos": "538",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N458N": {
+                    "Ref": "N",
+                    "Pos": "458",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P441P": {
+                    "Ref": "P",
+                    "Pos": "441",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N537N": {
+                    "Ref": "N",
+                    "Pos": "537",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:F446F": {
+                    "Ref": "F",
+                    "Pos": "446",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G449G": {
+                    "Ref": "G",
+                    "Pos": "449",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:Y493Y": {
+                    "Ref": "Y",
+                    "Pos": "493",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C469C": {
+                    "Ref": "C",
+                    "Pos": "469",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:M476M": {
+                    "Ref": "M",
+                    "Pos": "476",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A481A": {
+                    "Ref": "A",
+                    "Pos": "481",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R515R": {
+                    "Ref": "R",
+                    "Pos": "515",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P527P": {
+                    "Ref": "P",
+                    "Pos": "527",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:S436S": {
+                    "Ref": "S",
+                    "Pos": "436",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A437G": {
+                    "Ref": "A",
+                    "Pos": "437",
+                    "Alt": "G",
+                    "Call": "2.345528455284553",
+                    "AF": "1.0",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHPS:K540E": {
+                    "Ref": "K",
+                    "Pos": "540",
+                    "Alt": "E",
+                    "Call": "1.3576923076923078",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "DHPS:A581A": {
+                    "Ref": "A",
+                    "Pos": "581",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A613A": {
+                    "Ref": "A",
+                    "Pos": "613",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:A16A": {
+                    "Ref": "A",
+                    "Pos": "16",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:C59C": {
+                    "Ref": "C",
+                    "Pos": "59",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:S108N": {
+                    "Ref": "S",
+                    "Pos": "108",
+                    "Alt": "N",
+                    "Call": "1.045643153526971",
+                    "AF": "1.0",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "DHFR:I164I": {
+                    "Ref": "I",
+                    "Pos": "164",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:N51I": {
+                    "Ref": "N",
+                    "Pos": "51",
+                    "Alt": "I",
+                    "Call": "1.0701754385964912",
+                    "AF": "1.0",
+                    "Confidence": "40",
+                    "Status": ""
+                }
+            }
+        },
+        "SRR6463551.csv": {
+            "Year": "20SR",
+            "Country": "R6",
+            "Site": "46",
+            "TreatmentDay": "35",
+            "Treatment": "5",
+            "SampleID": "1.cs",
+            "Genus&Species": "v",
+            "SampleType": "",
+            "Markers": "",
+            "Replicate": "",
+            "VariantCalls": {
+                "mitochondrial_genome:Y268Y": {
+                    "Ref": "Y",
+                    "Pos": "268",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "mitochondrial_genome:I258I": {
+                    "Ref": "I",
+                    "Pos": "258",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:D1246D": {
+                    "Ref": "D",
+                    "Pos": "1246",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:N1042N": {
+                    "Ref": "N",
+                    "Pos": "1042",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:S1034S": {
+                    "Ref": "S",
+                    "Pos": "1034",
+                    "Alt": "S",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfMDR1:Y184F": {
+                    "Ref": "Y",
+                    "Pos": "184",
+                    "Alt": "F",
+                    "Call": "0.5597826086956522",
+                    "AF": "0.5393258426966292",
+                    "Confidence": "41",
+                    "Status": ""
+                },
+                "PfMDR1:N86N": {
+                    "Ref": "N",
+                    "Pos": "86",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C350C": {
+                    "Ref": "C",
+                    "Pos": "350",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:C72C": {
+                    "Ref": "C",
+                    "Pos": "72",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:R371R": {
+                    "Ref": "R",
+                    "Pos": "371",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I356I": {
+                    "Ref": "I",
+                    "Pos": "356",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:G353G": {
+                    "Ref": "G",
+                    "Pos": "353",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:K76K": {
+                    "Ref": "K",
+                    "Pos": "76",
+                    "Alt": "K",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M343M": {
+                    "Ref": "M",
+                    "Pos": "343",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:H97H": {
+                    "Ref": "H",
+                    "Pos": "97",
+                    "Alt": "H",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:M74M": {
+                    "Ref": "M",
+                    "Pos": "74",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:V73V": {
+                    "Ref": "V",
+                    "Pos": "73",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N75N": {
+                    "Ref": "N",
+                    "Pos": "75",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:T93T": {
+                    "Ref": "T",
+                    "Pos": "93",
+                    "Alt": "T",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:N326N": {
+                    "Ref": "N",
+                    "Pos": "326",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:F145F": {
+                    "Ref": "F",
+                    "Pos": "145",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:I218I": {
+                    "Ref": "I",
+                    "Pos": "218",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:A220A": {
+                    "Ref": "A",
+                    "Pos": "220",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "PfCRT:Q271Q": {
+                    "Ref": "Q",
+                    "Pos": "271",
+                    "Alt": "Q",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R539R": {
+                    "Ref": "R",
+                    "Pos": "539",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R622R": {
+                    "Ref": "R",
+                    "Pos": "622",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:D584D": {
+                    "Ref": "D",
+                    "Pos": "584",
+                    "Alt": "D",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C580C": {
+                    "Ref": "C",
+                    "Pos": "580",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A578A": {
+                    "Ref": "A",
+                    "Pos": "578",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P574P": {
+                    "Ref": "P",
+                    "Pos": "574",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:V568V": {
+                    "Ref": "V",
+                    "Pos": "568",
+                    "Alt": "V",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R561R": {
+                    "Ref": "R",
+                    "Pos": "561",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P553P": {
+                    "Ref": "P",
+                    "Pos": "553",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A675A": {
+                    "Ref": "A",
+                    "Pos": "675",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:I543I": {
+                    "Ref": "I",
+                    "Pos": "543",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G538G": {
+                    "Ref": "G",
+                    "Pos": "538",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N458N": {
+                    "Ref": "N",
+                    "Pos": "458",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P441P": {
+                    "Ref": "P",
+                    "Pos": "441",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:N537N": {
+                    "Ref": "N",
+                    "Pos": "537",
+                    "Alt": "N",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:F446F": {
+                    "Ref": "F",
+                    "Pos": "446",
+                    "Alt": "F",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:G449G": {
+                    "Ref": "G",
+                    "Pos": "449",
+                    "Alt": "G",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:Y493Y": {
+                    "Ref": "Y",
+                    "Pos": "493",
+                    "Alt": "Y",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:C469C": {
+                    "Ref": "C",
+                    "Pos": "469",
+                    "Alt": "C",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:M476M": {
+                    "Ref": "M",
+                    "Pos": "476",
+                    "Alt": "M",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:A481A": {
+                    "Ref": "A",
+                    "Pos": "481",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:R515R": {
+                    "Ref": "R",
+                    "Pos": "515",
+                    "Alt": "R",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "K13:P527P": {
+                    "Ref": "P",
+                    "Pos": "527",
+                    "Alt": "P",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:S436F": {
+                    "Ref": "S",
+                    "Pos": "436",
+                    "Alt": "F",
+                    "Call": "0.19613259668508287",
+                    "AF": "0.19613259668508287",
+                    "Confidence": "41.98",
+                    "Status": "QD is too low"
+                },
+                "DHPS:A437G": {
+                    "Ref": "A",
+                    "Pos": "437",
+                    "Alt": "G",
+                    "Call": "2.6558704453441297",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "DHPS:K540E": {
+                    "Ref": "K",
+                    "Pos": "540",
+                    "Alt": "E",
+                    "Call": "1.2458333333333333",
+                    "AF": "0.8813559322033898",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "DHPS:A581A": {
+                    "Ref": "A",
+                    "Pos": "581",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHPS:A613S": {
+                    "Ref": "A",
+                    "Pos": "613",
+                    "Alt": "S",
+                    "Call": "0.2714285714285714",
+                    "AF": "0.15789473684210525",
+                    "Confidence": "41",
+                    "Status": "QD is too low"
+                },
+                "DHFR:A16A": {
+                    "Ref": "A",
+                    "Pos": "16",
+                    "Alt": "A",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:C59R": {
+                    "Ref": "C",
+                    "Pos": "59",
+                    "Alt": "R",
+                    "Call": "2.472843450479233",
+                    "AF": "1.0",
+                    "Confidence": "36",
+                    "Status": ""
+                },
+                "DHFR:S108N": {
+                    "Ref": "S",
+                    "Pos": "108",
+                    "Alt": "N",
+                    "Call": "3.3959183673469386",
+                    "AF": "1.0",
+                    "Confidence": "42",
+                    "Status": ""
+                },
+                "DHFR:I164I": {
+                    "Ref": "I",
+                    "Pos": "164",
+                    "Alt": "I",
+                    "Call": "NA",
+                    "AF": "NA",
+                    "Confidence": "NA",
+                    "Status": "\"NA"
+                },
+                "DHFR:N51I": {
+                    "Ref": "N",
+                    "Pos": "51",
+                    "Alt": "I",
+                    "Call": "2.1138461538461537",
+                    "AF": "1.0",
+                    "Confidence": "34",
+                    "Status": "MQ is too low"
+                }
+            }
+        }
+    }
+}

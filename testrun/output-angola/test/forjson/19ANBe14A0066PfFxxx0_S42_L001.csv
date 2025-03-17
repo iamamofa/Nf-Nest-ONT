@@ -1,0 +1,11 @@
+Gene,BasePOS,BaseDepth,Ref,Alt,AAref,AAalt,AAPOS,CodonCoverage,VAF(DP4),VAF(AD/DP),AF,Mutation,QD,SOR,MQ,MQRankSum,Filter,FilterDescription,Candidates,Reportable
+DHPS,NA,2,NA,NA,S,S,436,NA,NA,NA,NA,Wildtype,NA,NA,NA,NA,NA,"NA,NA,NA,NA",no,no
+DHPS,NA,2,NA,NA,A,A,437,NA,NA,NA,NA,Wildtype,NA,NA,NA,NA,NA,"NA,NA,NA,NA",no,no
+DHPS,NA,0,NA,NA,K,K,540,NA,NA,NA,NA,Wildtype,NA,NA,NA,NA,NA,"NA,NA,NA,NA",no,no
+DHPS,NA,0,NA,NA,A,A,581,NA,NA,NA,NA,Wildtype,NA,NA,NA,NA,NA,"NA,NA,NA,NA",no,no
+DHPS,NA,0,NA,NA,A,A,613,NA,NA,NA,NA,Wildtype,NA,NA,NA,NA,NA,"NA,NA,NA,NA",no,no
+DHFR,NA,2,NA,NA,A,A,16,NA,NA,NA,NA,Wildtype,NA,NA,NA,NA,NA,"NA,NA,NA,NA",no,no
+DHFR,NA,2,NA,NA,N,N,51,NA,NA,NA,NA,Wildtype,NA,NA,NA,NA,NA,"NA,NA,NA,NA",no,no
+DHFR,NA,2,NA,NA,C,C,59,NA,NA,NA,NA,Wildtype,NA,NA,NA,NA,NA,"NA,NA,NA,NA",no,no
+DHFR,323,2,G,A,S,N,108,2,1.0,1.0,1.0,Major,18.66,0.693,42,None,0.53325,,no,reportable
+DHFR,NA,2,NA,NA,I,I,164,NA,NA,NA,NA,Wildtype,NA,NA,NA,NA,NA,"NA,NA,NA,NA",no,no

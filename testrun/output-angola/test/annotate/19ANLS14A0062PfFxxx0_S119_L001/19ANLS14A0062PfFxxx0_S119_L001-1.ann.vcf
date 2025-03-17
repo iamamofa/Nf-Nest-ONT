@@ -1,0 +1,43 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##bcftoolsVersion=1.9+htslib-1.9
+##bcftoolsCommand=mpileup -f New_6_genes.fa 19ANLS14A0062PfFxxx0_S119_L001_SR.bam
+##reference=file://New_6_genes.fa
+##contig=<ID=DHFR,length=1827>
+##contig=<ID=DHPS,length=2417>
+##contig=<ID=K13,length=2181>
+##contig=<ID=mitochondrial_genome,length=5967>
+##contig=<ID=PfCRT,length=3399>
+##contig=<ID=PfMDR1,length=4260>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=IDV,Number=1,Type=Integer,Description="Maximum number of reads supporting an indel">
+##INFO=<ID=IMF,Number=1,Type=Float,Description="Maximum fraction of reads supporting an indel">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">
+##INFO=<ID=RPB,Number=1,Type=Float,Description="Mann-Whitney U test of Read Position Bias (bigger is better)">
+##INFO=<ID=MQB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality Bias (bigger is better)">
+##INFO=<ID=BQB,Number=1,Type=Float,Description="Mann-Whitney U test of Base Quality Bias (bigger is better)">
+##INFO=<ID=MQSB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality vs Strand Bias (bigger is better)">
+##INFO=<ID=SGB,Number=1,Type=Float,Description="Segregation based metric.">
+##INFO=<ID=MQ0F,Number=1,Type=Float,Description="Fraction of MQ0 reads (smaller is better)">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=ICB,Number=1,Type=Float,Description="Inbreeding Coefficient Binomial test (bigger is better)">
+##INFO=<ID=HOB,Number=1,Type=Float,Description="Bias in the number of HOMs number (smaller is better)">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes for each ALT allele, in the same order as listed">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Number of high-quality ref-forward , ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Average mapping quality">
+##bcftools_callVersion=1.9+htslib-1.9
+##bcftools_callCommand=call -vm 19ANLS14A0062PfFxxx0_S119_L001.mpileup; Date=Thu Mar 13 07:56:10 2025
+##SnpEffVersion="4.3t (build 2017-11-24 10:18), by Pablo Cingolani"
+##SnpEffCmd="SnpEff  New_6_genes 19ANLS14A0062PfFxxx0_S119_L001-1.vcf "
+##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO' ">
+##INFO=<ID=LOF,Number=.,Type=String,Description="Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+##INFO=<ID=NMD,Number=.,Type=String,Description="Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	19ANLS14A0062PfFxxx0_S119_L001
+DHPS	1486	.	C	G	12.6566	.	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,0,1;MQ=42;ANN=G|missense_variant|MODERATE|h+b0TcxH/nDe92m/YJoIVqWQzZA.1614834436058.16|GENE_h+b0TcxH/nDe92m/YJoIVqWQzZA.1614834436058.16|transcript|TRANSCRIPT_h+b0TcxH/nDe92m/YJoIVqWQzZA.1614834436058.16|protein_coding|2/3|c.1310C>G|p.Ala437Gly|1310/2121|1310/2121|437/706||WARNING_TRANSCRIPT_MULTIPLE_STOP_CODONS,G|upstream_gene_variant|MODIFIER|h+b0TcxH/nDe92m/YJoIVqWQzZA.1614834436058.16|GENE_h+b0TcxH/nDe92m/YJoIVqWQzZA.1614834436058.16_circ|transcript|TRANSCRIPT_h+b0TcxH/nDe92m/YJoIVqWQzZA.1614834436058.16_circ|protein_coding||c.-931C>G|||||931|WARNING_TRANSCRIPT_MULTIPLE_STOP_CODONS,G|intragenic_variant|MODIFIER|DHPS_gene|DHPS_gene|gene_variant|DHPS_gene|||n.1486C>G||||||,G|custom|MODIFIER|||CUSTOM&annotation|A437G|||n.1486C>G||||||	GT:PL	1/1:42,3,0
+DHPS	1487	.	A	T	12.6566	.	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,0,1;MQ=42;ANN=T|synonymous_variant|LOW|h+b0TcxH/nDe92m/YJoIVqWQzZA.1614834436058.16|GENE_h+b0TcxH/nDe92m/YJoIVqWQzZA.1614834436058.16|transcript|TRANSCRIPT_h+b0TcxH/nDe92m/YJoIVqWQzZA.1614834436058.16|protein_coding|2/3|c.1311A>T|p.Ala437Ala|1311/2121|1311/2121|437/706||WARNING_TRANSCRIPT_MULTIPLE_STOP_CODONS,T|upstream_gene_variant|MODIFIER|h+b0TcxH/nDe92m/YJoIVqWQzZA.1614834436058.16|GENE_h+b0TcxH/nDe92m/YJoIVqWQzZA.1614834436058.16_circ|transcript|TRANSCRIPT_h+b0TcxH/nDe92m/YJoIVqWQzZA.1614834436058.16_circ|protein_coding||c.-930A>T|||||930|WARNING_TRANSCRIPT_MULTIPLE_STOP_CODONS,T|intragenic_variant|MODIFIER|DHPS_gene|DHPS_gene|gene_variant|DHPS_gene|||n.1487A>T||||||,T|custom|MODIFIER|||CUSTOM&annotation|A437G|||n.1487A>T||||||	GT:PL	1/1:42,3,0
+K13	2026	.	G	T	12.6566	.	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=42;ANN=T|missense_variant|MODERATE|K13_CDS|GENE_K13_CDS|transcript|TRANSCRIPT_K13_CDS|protein_coding|1/1|c.2026G>T|p.Ala676Ser|2026/2181|2026/2181|676/726||,T|intragenic_variant|MODIFIER|K13_gene|K13_gene|gene_variant|K13_gene|||n.2026G>T||||||	GT:PL	1/1:42,3,0
+PfMDR1	1669	.	G	T	12.6566	.	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=42;ANN=T|missense_variant|MODERATE|PfMDR1_CDS|GENE_PfMDR1_CDS|transcript|TRANSCRIPT_PfMDR1_CDS|protein_coding|1/1|c.1669G>T|p.Gly557Cys|1669/4260|1669/4260|557/1419||,T|intragenic_variant|MODIFIER|PfMDR1_gene|PfMDR1_gene|gene_variant|PfMDR1_gene|||n.1669G>T||||||	GT:PL	1/1:42,3,0
