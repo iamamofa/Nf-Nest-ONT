@@ -58,16 +58,9 @@ workflow {
     snpfilter(spread.out, merge.out, processAlignments.out, pyscripts)
     tojson(snpfilter.out, pyscripts)
 
-    // Use multiMap to split getcoverage.out into coverage and depth channels
-    getcoverage.out
-        .multiMap { it ->
-            coverage: it[1]  // Extract coverage_file
-            depth: it[2]     // Extract depth_file
-        }
-        .set { coverage_depth }
-
-    finalcoverage = coverage_depth.coverage
-    depth = coverage_depth.depth
+    // Use map to split getcoverage.out into coverage and depth channels
+    finalcoverage = getcoverage.out.map { barcode, coverage_file, depth_file -> coverage_file }
+    depth = getcoverage.out.map { barcode, coverage_file, depth_file -> depth_file }
 
     // Pass finalcoverage and depth to getcutoff
     getcutoff(finalcoverage.collect(), depth.collect(), pyscripts)
